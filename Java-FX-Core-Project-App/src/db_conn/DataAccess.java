@@ -1,6 +1,10 @@
 package db_conn;
 
 import javafx.collections.ObservableList;
+import tables.Classes;
+import tables.Student;
+import tables.Subject;
+import tables.Teacher;
 
 import java.sql.SQLException;
 import java.sql.DriverManager;
@@ -48,39 +52,110 @@ public class DataAccess {
      * @return
      * @throws SQLException
      */
-    public List<> getAllRows()  throws SQLException {
+
+    /*
+    ##################
+    FETCH TEACHER DATA
+    ##################
+     */
+    public List<Teacher> getTeacherData()  throws SQLException {
 
         String sql = "SELECT * FROM " + teacherTable + " ORDER BY teacherName";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
-        List<> list = new ArrayList<>();
+
+        List<Teacher> teacherList = new ArrayList<>();
 
         while (rs.next()) {
-            int i = rs.getInt("teacherId");
+            int id = rs.getInt("teacher_id");
             String name = rs.getString("teacherName");
             String surname = rs.getString("teacherSurname");
+            String address = rs.getString("teacherAddress");
             String email = rs.getString("teacherEmail");
-            list.add(new (i, name, surname, email));
+
+            teacherList.add(new Teacher(id, name, surname, address, email));
         }
 
         pstmnt.close(); // also closes related result set
-        return list;
+        return teacherList;
     }
 
-    public List<> getAllRows2(int i) throws SQLException {
+    /*
+    ##################
+    FETCH STUDENT DATA
+    ##################
+     */
+    public List<Student> getStudentData() throws SQLException {
 
-        String sql = "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
+        String sql = "SELECT * FROM " + studentTable + " ORDER BY studentName";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
-        pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
-        List<> listClasses = new ArrayList<>();
+
+        List<Student> studentList = new ArrayList<>();
 
         while (rs.next()) {
-            int i2 = rs.getInt("classId");
-            String name = rs.getString("className");
-            listClasses.add(new (i2, name));
+            int id = rs.getInt("student_id");
+            String name = rs.getString("studentName");
+            String surname = rs.getString("studentSurname");
+            String address = rs.getString("studentAddress");
+            String contactPerson = rs.getString("studentContactPerson");
+            int fk_class_id = rs.getInt("fk_class_id");
+
+           studentList.add(new Student(id, name, surname, address, contactPerson, fk_class_id));
         }
-        pstmnt.close();
-        return listClasses;
+
+        pstmnt.close(); // also closes related result set
+        return studentList;
     }
+
+    /*
+    ##################
+    FETCH SUBJECT DATA
+    ##################
+     */
+    public List<Subject> getSubjectData() throws SQLException {
+
+        String sql = "SELECT * FROM " + subjectTable + " ORDER BY subjectName";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        ResultSet rs = pstmnt.executeQuery();
+
+        List<Subject> subjectList = new ArrayList<>();
+
+        while (rs.next()) {
+            int id = rs.getInt("subject_id");
+            String name = rs.getString("subjectName");
+
+            subjectList.add(new Subject(id, name));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return subjectList;
+    }
+
+    /*
+    ##################
+    FETCH CLASS DATA
+    ##################
+     */
+    public List<Classes> getClassData() throws SQLException {
+
+        String sql = "SELECT * FROM " + classTable + " ORDER BY className";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        ResultSet rs = pstmnt.executeQuery();
+
+        List<Classes> classList = new ArrayList<>();
+
+        while (rs.next()) {
+            int id = rs.getInt("class_id");
+            String name = rs.getString("className");
+
+            classList.add(new Classes(id, name));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return classList;
+    }
+
+
+
 }
