@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99c487c5-2bf7-4766-8800-97ca1207927c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/CodeFactory_summary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/Git.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/Sublime Text Build 3207 x64 Setup.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/W2D5_CodeReview_02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/Summary.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/catchup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/out/production/catchup/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/catchup/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/class.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/github-git-cheat-sheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/github/JAVA_DAY02_BasicA2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/java_links.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/CodeReview5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/FileIO.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/FileIO.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/FxAppB.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/FxAppB.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview05.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/W5D5_CodeReview.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/Muster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/out/production/W5D5_CodeReview/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/Muster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/MusterAk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/cheese_salakis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/pfeffer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/voslauer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/W5D5_CodeReview_Muster/src/sample/zucker.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/a5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Main2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Main2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Main3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Product1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Product2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Product3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/Text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/out/production/a5/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/report.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Product1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Product2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Product3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/Text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/a5/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/FirstExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/GridPane.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/ImageView2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/MyFxApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/NewStage$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/NewStage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/NewStage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/PreWork.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/SwitchScene$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/SwitchScene$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/Expamles/SwitchScene.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/images/Java-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/images/coffee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/sample/MainFxml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/out/production/w5d1_fx/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/resources/images/Java-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/resources/images/coffee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/FirstExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/GridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/ImageView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/MyFxApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/NewStage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/PreWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/Expamles/SwitchScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/sample/MainFxml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1D2_fxIntro/w5d1_fx.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1_fx/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1_w5d2_javafx_prework.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d1_w5d2_javafx_prework.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_LiveCoding_ListView.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_LiveCoding_ListView.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/ex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/Experiment/MainEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/Experiment/UserLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/Experiment/userlogin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/sample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_fxml/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/AlertExperiment/AlertExperiment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/AlertExperiment/ErrorAlertExperiment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/FxmlExperiment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/META-INF/w5d3_pane_alert_fxml.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/PaneExperiment/BorderPaneExperiment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/PaneExperiment/GridPaneExperiment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/sample/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/sample/MainFxml.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/out/production/w5d3_pane_alert_fxml/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/AlertExperiment/AlertExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/AlertExperiment/ErrorAlertExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/FxmlExperiment.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/PaneExperiment/BorderPaneExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/PaneExperiment/GridPaneExperiment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/sample/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/sample/MainFxml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/src/sample/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d3_pane_alert_fxml/w5d3_pane_alert_fxml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d4_fileIO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d4_fileIOExection.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_03_07_2019/w5d4_fileIOExection.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/CodeReview06_Daten/class.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/CodeReview06_Daten/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/CodeReview06_Daten/teacher.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/libraries/mysql_connector_java_8_0_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/JDBCExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/out/production/JDBCExample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/JDBCExample/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/W6D5_CodeReview06.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/phpMyAdmin_database.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d2_XAMPP_Install.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d2_XAMPP_Install.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d2_databases.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d2_databases.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d3_JDBC.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d3_JDBC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d3_Relations_and_JOINs.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d3_Relations_and_JOINs.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Juni_10_15_2019/w6d4_JDBC_JavaFX.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/W1D1 - Classwork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/out/production/W1D1 - Classwork/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1 - Classwork/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/W1D1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/out/production/W1D1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/W1D2_Github.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_Github/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/W1D2_classwork_If_else_switch, arrays, keywords.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/out/production/W1D2_classwork_If_else_switch, arrays, keywords/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D2_classwork_If_else_switch, arrays, keywords/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D3 - LiveCoding - Methods Example.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D3 - LiveCoding - Methods Example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/W1D5_CodeReview_01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d1_introduction.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d1_introduction.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d2_ifElse_switch_arrays.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d2_ifElse_switch_arrays.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d3_methods_strings.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d3_methods_strings.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d4_arrays_loops.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d4_arrays_loops.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d5_codereview_100519.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_07_11_2019/w1d5_codereview_100519.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/.~lock.w2d5_CodeReview02_170519.odt#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D1 - LiveCoding – Objects-Example.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D1 - LiveCoding – Objects-Example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D1_classwork_objects" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D2-LiveCoding-Package_Inheritance-Example.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D2-LiveCoding-Package_Inheritance-Example.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D3 - LiveCoding - private_public_get_set.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D3 - LiveCoding - private_public_get_set.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/W2D5_CodeReview_02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/codeReviewTest.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/gitPullPush.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/pushPullGit.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d1_objects_classes_constructors_a6Offen.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d1_objects_classes_constructors_a6Offen.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d2_Inheritance" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d2_Inheritance_p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d2_inheritance.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d2_inheritance.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d3_access_modifiers.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d3_access_modifiers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d3_classwork_access_modifiers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d4_classwork_Exception_ Composition" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d4_exception.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d4_exception.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_13_18_2019/w2d5_CodeReview02_170519.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_ Interfaces_ArrayList.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_ Interfaces_ArrayList.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_arraylist_collection_interfaces" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/W3_DAY01_Exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d1_interface/W3_DAY01_Exercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d2_HashMap_more on List.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d2_HashMap_more on List.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d3_groupProject.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d3_groupProject.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_20_26_2019/w3d3_groupProject01" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/Jenny_CodeReview4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/W4D3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/a4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/Bike$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/Bike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/Rent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/Station.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/out/production/a4/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/src/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/src/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/src/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/a4/src/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/b4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Bike$State.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Bike.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Rent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Stations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/out/production/b4/Users.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/src/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/src/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/src/Stations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/b4/src/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d1_softwareEngineering.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d1_softwareEngineering.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d1_softwareEngineering_classwork.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d1_softwareEngineering_classwork.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d1_stackholder" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d2_JUnit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d2_jUnit_testing.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d2_jUnit_testing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d3_arrayBinarySearch.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d3_arrayBinarySearch.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CodeFactory_summary/project_Mai_27_31_2019/w4d4_codeReview.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLF4J/slf4j-api-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLF4J/slf4j-simple-1.7.26.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/out/production/W6D5_CodeReview06/META-INF/W6D5_CodeReview06.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/sql/database-dump.sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/sql/report.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/src/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/src/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../W6D5_CodeReview06/src/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../example/example.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/concrt140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/decora_sse.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/fxplugins.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/glass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/glib-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/gstreamer-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/javafx_font.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/javafx_iio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/jfxmedia.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/jfxwebkit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/prism_common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/prism_d3d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/prism_sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/bin/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/applecoreaudio.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javafx-sdk-11.0.2/lib/src.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/INFO_BIN" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/INFO_SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/java/documentation/ErrorMappingsDocGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/java/documentation/PropertiesDocGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/java/instrumentation/AddMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/java/instrumentation/CommonChecks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/java/instrumentation/TranslateExceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/Product.wxs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/changelog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/compat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/copyright" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/install" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/rules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/source/format" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/debian.in/watch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/build/misc/rpm.spec.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/demo/java/demo/x/devapi/DevApiSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/Mysqlx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxCrud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxCursor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxDatatypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxExpect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxExpr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxNotice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxPrepare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxResultset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/MysqlxSql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/generated/java/com/mysql/cj/x/protobuf/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/legacy/java/com/mysql/jdbc/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/legacy/java/com/mysql/jdbc/SocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/legacy/java/com/mysql/jdbc/SocketFactoryWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/AppendingBatchVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/BatchVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/BindValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/CacheAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/CacheAdapterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/CancelQueryTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/CharsetMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/DataStoreMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/MessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/MysqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/MysqlType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/ParseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/PerConnectionLRUFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/PingTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/PreparedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/QueryBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/ServerVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/TransactionEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/WarningListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/ConnectionPropertiesTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/ConnectionUrlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/DatabaseUrlContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/HostInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/PropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/PropertyDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/PropertyKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/PropertySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/conf/RuntimeProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/AssertionFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJCommunicationsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJConnectionFeatureNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJOperationNotSupportedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJPacketTooBigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/CJTimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/ClosedOnExpiredPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/ConnectionIsClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/DataConversionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/DataReadException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/DataTruncationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/DeadlockTimeoutRollbackMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/ExceptionInterceptorChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/FeatureNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/InvalidConnectionAttributeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/MysqlErrorNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/NumberOutOfRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/OperationCancelledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/PasswordExpiredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/PropertyNotModifiableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/RSAException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/SSLParamsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/StatementIsClosedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/StreamingNotifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/UnableToConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/UnsupportedConnectionStringException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/exceptions/WrongArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/interceptors/QueryInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/Jdk14Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/NullLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/ProfilerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/ProfilerEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/Slf4JLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/log/StandardLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/AuthenticationPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/AuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ColumnDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/FullReadInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/InternalDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/InternalTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/InternalTimestamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/MessageHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/MessageReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/MessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/NetworkResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/OutputStreamWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/PacketReceivedTimeHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/PacketSentTimeHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/Protocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ProtocolEntityReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ResultStreamer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/Resultset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ResultsetRowsOwner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ServerCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ServerSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/SocketConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/SocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/SocketMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/ValueDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/protocol/WatchableStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/result/Field.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/result/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/result/RowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/result/ValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/Base64Decoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/DataTypeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/EscapeTokenizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/LazyString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/PerVmServerConfigCacheFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/SequentialIdLease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-api/java/com/mysql/cj/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/AbstractPreparedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/AbstractQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/AbstractQueryBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/CancelQueryTaskImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ClientPreparedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ClientPreparedQueryBindValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ClientPreparedQueryBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/CoreSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/DataStoreMetadataImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/LicenseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/MysqlxSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/NativeSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/NoSubInterceptorWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ServerPreparedQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryBindValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/ServerPreparedQueryTestcaseGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/SimpleQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/admin/ServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/AbstractPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/AbstractRuntimeProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/BooleanProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/BooleanPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/DefaultPropertySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/EnumProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/EnumPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/IntegerProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/IntegerPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/LongProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/LongPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/MemorySizeProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/MemorySizePropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/StringProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/StringPropertyDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/url/FailoverConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/url/LoadbalanceConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/url/ReplicationConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/url/SingleConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/conf/url/XDevAPIConnectionUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/log/BaseMetricsHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/log/LogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/log/LoggingProfilerEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/log/ProfilerEventHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/log/ProfilerEventImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/AbstractProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/AbstractSocketConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/AsyncSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/ExportControlled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/NamedPipeSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/ReadAheadInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/Security.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/SerializingBufferWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/SocksProxySocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/StandardSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/TlsAsynchronousSocketChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/WatchableOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/WatchableWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/WriterWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/protocol/result/AbstractResultsetRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/AbstractDateTimeValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/AbstractNumericValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/BigDecimalValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/BinaryStreamValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/BooleanValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/BufferedRowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/ByteValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/DefaultColumnDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/DefaultValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/DoubleValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/FloatValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/IntegerValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/LocalDateTimeValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/LocalDateValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/LocalTimeValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/LongValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/ShortValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/SqlDateValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/SqlTimeValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/SqlTimestampValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/core-impl/java/com/mysql/cj/result/StringValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/doc/connector-j-overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/doc/mysqlx-overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/AbstractRowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/BinaryResultsetReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/BinaryRowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ColumnDefinitionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ColumnDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/CompressedInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/CompressedPacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/DebugBufferingPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/DebugBufferingPacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MergingColumnDefinitionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MultiPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MysqlBinaryValueDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/MysqlTextValueDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativePacketHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativePacketPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeServerSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeSocketConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/NativeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/PacketSplitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ResultsetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/ResultsetRowReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/SimplePacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/SimplePacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TextResultsetReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TextRowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TimeTrackingPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TimeTrackingPacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TracingPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/TracingPacketSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/CachingSha2PasswordPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlClearPasswordPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlNativePasswordPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/MysqlOldPasswordPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/authentication/Sha256PasswordPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/AbstractBufferRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/AbstractResultsetRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/BinaryBufferRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ByteArrayRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/NativeResultset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/OkPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsCursor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/ResultsetRowsStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/a/result/TextBufferRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/AsyncMessageReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/AsyncMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ErrorToFutureCompletionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/FieldFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/MessageConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ResultCreatingResultListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/ResultMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SqlResultMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOkBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/StatementExecuteOkMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SyncMessageReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/SyncMessageSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XAsyncSocketConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XMessageHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XProtocolRowInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XServerSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/protocol-impl/java/com/mysql/cj/protocol/x/XpluginStatementCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/LocalizedErrorMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/3-0-Compat.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/clusterBase.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/coldFusion.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/fullDebug.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/maxPerformance-8-0.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/maxPerformance.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/configurations/solarisMaxPerformance.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/resources/com/mysql/cj/util/TimeZoneMapping.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ClientInfoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/JdbcConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/JdbcPreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/JdbcPropertySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/JdbcStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ParameterBindings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ha/BalanceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ha/LoadBalanceExceptionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ha/LoadBalancedConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/ha/ReplicationConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/interceptors/ConnectionLifecycleInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/result/CachedResultSetMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/jdbc/result/ResultSetInternalMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/AddResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/AddStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/ClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/DatabaseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/DbDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/DeleteStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/DocResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/FetchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/FilterParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/FindStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/InsertResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/InsertStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/JsonValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/ModifyStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/RemoveStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/RowResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Schema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/SelectStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Session.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/SessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/SqlResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/SqlStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Statement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/UpdateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/UpdateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/Warning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/XDevAPIError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-api/java/com/mysql/cj/xdevapi/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/Blob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/BlobFromLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/CallableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/CallableStatementWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ClientInfoProviderSP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ClientPreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/Clob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/CommentClientInfoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionGroupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ConnectionWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/DatabaseMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/DatabaseMetaDataUsingInfoSchema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/EscapeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/EscapeProcessorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/IterateBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/JdbcPropertySetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlConnectionPoolDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlDataSourceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlParameterMetadata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlPooledConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlSQLXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlSavepoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXAConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXADataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXAException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/MysqlXid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/NClob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/NonRegisteringDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ParameterBindingsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/PreparedStatementWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ServerPreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/StatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/StatementWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/SuspendableXAConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/WrapperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/admin/MiniAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/admin/TimezoneDump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/CommunicationsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/ConnectionFeatureNotAvailableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLQueryInterruptedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLStatementCancelledException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLTimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MySQLTransactionRollbackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/MysqlDataTruncation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/NotUpdatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/OperationNotSupportedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/PacketTooBigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/SQLError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/BestResponseTimeBalanceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/FailoverConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedAutoCommitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/LoadBalancedMySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/MultiHostConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/NdbLoadBalanceExceptionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/RandomBalanceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionGroupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ReplicationMySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/SequentialBalanceStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/ServerAffinityStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/ha/StandardLoadBalanceExceptionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/integration/c3p0/MysqlConnectionTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/integration/jboss/MysqlValidConnectionChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/ResultSetScannerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/ServerStatusDiffInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/interceptors/SessionAssociationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/ReplicationGroupManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/jmx/ReplicationGroupManagerMBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/result/CachedResultSetMetaDataImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/result/ResultSetMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/result/UpdatableResultSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/util/BaseBugReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/jdbc/util/ResultSetUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/AbstractDataResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/AbstractFilterParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/AddResultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/AddStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/CollectionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ColumnImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/CreateIndexParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DatabaseObjectDescription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DbDocValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DeleteStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DocFilterParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/DocResultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprUnparser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ExprUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/FilterableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/FindStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertResultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/InsertStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonLiteral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/JsonString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/ModifyStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/PreparableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/RemoveStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/RowFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/RowImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/RowResultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SchemaImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SelectStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SessionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlDataResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlResultImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/SqlUpdateResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/TableFilterParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/TableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateSpec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/UpdateStatementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/main/user-impl/java/com/mysql/cj/xdevapi/WarningImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/ca-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/ca-truststore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/certs_howto.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/client-keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/mykey.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/mykey.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/config/ssl-test-certs/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/ConnectionUrlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/MessagesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/ServerVersionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/CompressedPacketSenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/DebugBufferingPacketSenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/MysqlBinaryValueDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/MysqlTextValueDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/PacketSenderTestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/SimplePacketReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/a/SimplePacketSenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/x/AsyncMessageReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/x/SyncMessageReaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/protocol/x/SyncMessageWriterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/BigDecimalValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/BinaryStreamValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/BooleanValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/ByteValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/CommonAsserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/DoubleValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/FloatValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/IntegerValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/LocalDateTimeValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/LocalDateValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/LocalTimeValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/LongValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/ShortValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/SqlDateValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/SqlTimeValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/SqlTimestampValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/StringValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/result/ZeroDateTimeToNullValueFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/xdevapi/ExprParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/com/mysql/cj/xdevapi/JsonDocTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/BaseQueryInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/BaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/TestUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/UnreliableSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/perf/BasePerfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/perf/LoadStorePerfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/perf/RetrievalPerfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/BlobRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/CachedRowsetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/CallableStatementRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/CharsetRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/ConnectionRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/DataSourceRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/EscapeProcessorRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/ExceptionSubclassesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/MetaDataRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/MicroPerformanceRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/NonLocalSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/NumbersRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/PooledConnectionRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/ResultSetRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/StatementRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/StressRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/StringRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/SubqueriesRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/SyntaxRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/regression/UtilsRegressionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/BlobTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/CallableStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/CharsetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/DataSourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/EscapeProcessingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/ExceptionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/MetadataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/MiniAdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/MultiHostConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/NumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/ReadOnlyCallableStatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/ResultSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/SSLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/SequentialIdLeaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/ServerControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/SimpleTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/SplitDBdotNameTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/StatementsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/StringUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/TestBug57662Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/TestLifecycleInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/TransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/TraversalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/UpdatabilityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/UtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/simple/XATest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/AsyncTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/BaseXDevAPITestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/TestXDevAPIRequirements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/AsyncQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/BaseCollectionTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/BaseTableTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/BindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/CollectionAddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/CollectionFindTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/CollectionModifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/CollectionRemoveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/CollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/DevApiBaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/Ipv6SupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/MetadataTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/ResultTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/SchemaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/SecureSessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/SessionFailoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/SessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TableDeleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TableInsertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TableSelectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TableUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/TransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/devapi/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/InternalXBaseTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/MysqlxSessionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/XProtocolAsyncTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/XProtocolAuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/XProtocolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysql-connector-java-8.0.16/src/test/java/testsuite/x/internal/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../w6d4_jdbc" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java-FX-Core-Project-App/src/tables/Teacher.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java-FX-Core-Project-App/src/tables/Subject.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="733" />
+    <option name="y" value="145" />
+    <option name="width" value="1050" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-FX-Core-Project-App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-FX-Core-Project-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-FX-Core-Project-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-FX-Core-Project-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="db_conn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="Java-FX-Core-Project-App" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-core-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-core-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="spring-boot-core-project" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c487c5-2bf7-4766-8800-97ca1207927c" name="Default Changelist" comment="" />
+      <created>1561369672288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561369672288</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="587" y="116" width="840" height="768" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-FX-Core-Project-App/src/tables/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java-FX-Core-Project-App/src/tables/Subject.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring-boot-core-project</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
