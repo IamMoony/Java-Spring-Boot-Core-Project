@@ -123,7 +123,9 @@ public class CoreApplication extends Application {
         HBox hBoxThirdR = new HBox();
 
         // Hidden HBOX
-        HBox hBoxHiddenId = new HBox();
+        txtHiddenIdField = new Text();
+        HBox hBoxHiddenId = new HBox(txtHiddenIdField);
+
 
 
 
@@ -139,6 +141,7 @@ public class CoreApplication extends Application {
         // teacherDataSubjects = getSubjectData();
 
 
+//hBoxHiddenId.getChildren().add(txtHiddenIdField);
 
         vBoxR1Obj1.getChildren().add(listViewTeachers);
         vBoxR1Obj2.getChildren().add(listViewSubjects);

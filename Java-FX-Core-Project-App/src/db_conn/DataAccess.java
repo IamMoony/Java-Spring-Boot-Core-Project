@@ -79,6 +79,31 @@ public class DataAccess {
     }
 
     /*
+  ##################
+  FETCH SUBJECT DATA
+  ##################
+   */
+    public List<Subject> getSubjectData(int i)  throws SQLException {
+
+        String sql = "SELECT subjects.subject_Id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+        // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        ResultSet rs = pstmnt.executeQuery();
+
+        List<Subject> subjectList = new ArrayList<>();
+
+        while (rs.next()) {
+            int id = rs.getInt("subject_Id");
+            String name = rs.getString("subjectName");
+
+            subjectList.add(new Subject(id, name));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return subjectList;
+    }
+
+    /*
     ##################
     FETCH STUDENT DATA
     ##################
@@ -106,30 +131,6 @@ public class DataAccess {
         return studentList;
     }
 
-    /*
-    ##################
-    FETCH SUBJECT DATA
-    ##################
-     */
-    public List<Subject> getSubjectData(int i)  throws SQLException {
-
-        String sql = "SELECT subjects.subject_Id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?;";
-        // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
-        PreparedStatement pstmnt = conn.prepareStatement(sql);
-        ResultSet rs = pstmnt.executeQuery();
-
-        List<Subject> subjectList = new ArrayList<>();
-
-        while (rs.next()) {
-            int id = rs.getInt("subject_Id");
-            String name = rs.getString("subjectName");
-
-            subjectList.add(new Subject(id, name));
-        }
-
-        pstmnt.close(); // also closes related result set
-        return subjectList;
-    }
 
     /*
     ##################
