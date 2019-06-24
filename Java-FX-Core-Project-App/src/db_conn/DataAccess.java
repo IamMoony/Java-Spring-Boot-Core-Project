@@ -1,5 +1,5 @@
 package db_conn;
-/*
+
 import javafx.collections.ObservableList;
 import tables.Classes;
 import tables.Student;
@@ -52,18 +52,12 @@ public class DataAccess {
      * @return
      * @throws SQLException
      */
-<<<<<<< HEAD
 /*
-    public List<> getAllRows()  throws SQLException {
-=======
-
-    /*
     ##################
     FETCH TEACHER DATA
     ##################
      */
     public List<Teacher> getTeacherData()  throws SQLException {
->>>>>>> 31f937379684fd0087f99928a90525781e5b7ed8
 
         String sql = "SELECT * FROM " + teacherTable + " ORDER BY teacherName";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
@@ -161,7 +155,4 @@ public class DataAccess {
         return classList;
     }
 
-
-
 }
-*/
