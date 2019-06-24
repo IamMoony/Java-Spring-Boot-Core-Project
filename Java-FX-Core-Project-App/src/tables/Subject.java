@@ -11,6 +11,8 @@ public class Subject {
         this.name = name;
     }
 
+
+
     public int getId() {
         return id;
     }
@@ -25,5 +27,10 @@ public class Subject {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

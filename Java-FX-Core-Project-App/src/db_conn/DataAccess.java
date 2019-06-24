@@ -1,7 +1,5 @@
 package db_conn;
 
-import javafx.collections.ObservableList;
-import tables.Classes;
 import tables.Student;
 import tables.Subject;
 import tables.Teacher;
@@ -17,10 +15,10 @@ import java.util.ArrayList;
 public class DataAccess {
 
     private Connection conn;
-    private static final String teacherTable = "teacher";
-    private static final String studentTable = "student";
-    private static final String subjectTable = "subject";
-    private static final String gradeTable = "grade";
+    private static final String teacherTable = "teachers";
+    private static final String studentTable = "students";
+    private static final String subjectTable = "subjects";
+    private static final String gradeTable = "grades";
     private static final String classTable = "classes";
 
     public DataAccess()
@@ -28,17 +26,17 @@ public class DataAccess {
 
         // Class.forName("org.hsqldb.jdbc.JDBCDriver" );
 
-        //STEP 2: Check if JDBC driver is available
+        // Check if JDBC driver is available
         Class.forName("com.mysql.cj.jdbc.Driver");
-        //STEP 3: Open a connection
+        // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql:173.212.235.205/benjamin_java_core_project" +
+                "jdbc:mysql://localhost/java_core-project-test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-                "benjamin_Benjo",
+                "root",
                 "");
 
-        // we will use this connection to write to a file
+        // Write a file
         conn.setAutoCommit(true);
         conn.setReadOnly(false);
     }
@@ -52,7 +50,8 @@ public class DataAccess {
      * @return
      * @throws SQLException
      */
-/*
+
+    /*
     ##################
     FETCH TEACHER DATA
     ##################
@@ -112,16 +111,17 @@ public class DataAccess {
     FETCH SUBJECT DATA
     ##################
      */
-    public List<Subject> getSubjectData() throws SQLException {
+    public List<Subject> getSubjectData(int i)  throws SQLException {
 
-        String sql = "SELECT * FROM " + subjectTable + " ORDER BY subjectName";
+        String sql = "SELECT subjects.subject_Id, subject.subjectName FROM subjects INNER JOIN teachersubject ON subject.subject_Id = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+        // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
 
         List<Subject> subjectList = new ArrayList<>();
 
         while (rs.next()) {
-            int id = rs.getInt("subject_id");
+            int id = rs.getInt("subject_Id");
             String name = rs.getString("subjectName");
 
             subjectList.add(new Subject(id, name));
@@ -136,6 +136,7 @@ public class DataAccess {
     FETCH CLASS DATA
     ##################
      */
+    /*
     public List<Classes> getClassData() throws SQLException {
 
         String sql = "SELECT * FROM " + classTable + " ORDER BY className";
@@ -154,5 +155,5 @@ public class DataAccess {
         pstmnt.close(); // also closes related result set
         return classList;
     }
-
+*/
 }

@@ -48,4 +48,12 @@ public class Teacher {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    @Override
+    public String toString() {
+        return  "ID " + id + ":" +
+                " " +  name +
+                surname;
+
+    }
 }
