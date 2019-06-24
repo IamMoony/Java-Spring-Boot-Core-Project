@@ -6,12 +6,14 @@ public class Teacher {
     private String name;
     private String surname;
     private String address;
+    private String email;
 
-    public Teacher(int id, String name, String surname, String address) {
+    public Teacher(int id, String name, String surname, String address, String email) {
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.address = address;
+        this.email = email;
     }
 
 
