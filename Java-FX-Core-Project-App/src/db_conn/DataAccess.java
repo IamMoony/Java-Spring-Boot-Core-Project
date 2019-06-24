@@ -14,6 +14,10 @@ public class DataAccess {
 
     private Connection conn;
     private static final String teacherTable = "teacher";
+    private static final String studentTable = "student";
+    private static final String subjectTable = "subject";
+    private static final String gradeTable = "grade";
+    private static final String classTable = "classes";
 
     public DataAccess()
             throws SQLException, ClassNotFoundException {
