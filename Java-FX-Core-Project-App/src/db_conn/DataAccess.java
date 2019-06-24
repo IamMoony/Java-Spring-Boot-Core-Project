@@ -113,7 +113,7 @@ public class DataAccess {
      */
     public List<Subject> getSubjectData(int i)  throws SQLException {
 
-        String sql = "SELECT subjects.subject_Id, subject.subjectName FROM subjects INNER JOIN teachersubject ON subject.subject_Id = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+        String sql = "SELECT subjects.subject_Id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?;";
         // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
