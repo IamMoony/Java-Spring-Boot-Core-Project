@@ -1,16 +1,17 @@
 package app;
 
+import com.sun.prism.paint.Color;
 import db_conn.DataAccess;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Cursor;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
+import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -57,8 +58,11 @@ public class CoreApplication extends Application {
     private Text txtcontactPerson;
     private Text txtClass;
 
-    // HBoxes for student data display
-    HBox studentDataAddress;
+    // New Combobox
+    ComboBox comboBox;
+
+    // Scenes
+    Scene scene1, scene2;
 
 
     // DB Access
@@ -116,13 +120,41 @@ public class CoreApplication extends Application {
         studentsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentStatusLabel = new Label("Status");
         studentsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
+        Label subjectsLabel = new Label("Assign Student Grade");
+        subjectsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 10));
+        Label rootHeadingLabel = new Label("School Administration Tool");
+        rootHeadingLabel.setFont(new Font("Arial", 20));
+        rootHeadingLabel.setPadding(new Insets(20));
+
 
         // Buttons
         Button btnassignStudentGrade = new Button("Assign Grade");
         btnassignStudentGrade.setCursor(Cursor.HAND);
+/*
+        btnassignStudentGrade.setOnAction(e -> {
+
+        );
+ */
+
+        // ComboBox
+        ObservableList<String> subjects =
+                FXCollections.observableArrayList(
+                        "English",
+                        "Maths",
+                        "Physics",
+                        "Chemistry",
+                        "German",
+                        "Biology",
+                        "Spanish",
+                        "IT",
+                        "History"
+                );
+
+        comboBox = new ComboBox();
+        comboBox.setItems(subjects);
 
         // VBox Root
-        VBox root = new VBox();
+        VBox root = new VBox(rootHeadingLabel);
         root.setPadding(new Insets(10, 50, 50, 50));
 
         // studentDataAddress = new HBox(studentAddressLabel, txtAddressField);
@@ -185,7 +217,8 @@ public class CoreApplication extends Application {
         hBoxSecondR.setSpacing(50);
 
         // Extra row for button
-        HBox hBoxSecondRB = new HBox(btnassignStudentGrade);
+        HBox hBoxSecondRB = new HBox(subjectsLabel, comboBox, btnassignStudentGrade);
+        hBoxSecondRB.setSpacing(10);
 
         // Third row
         HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
@@ -228,7 +261,6 @@ public class CoreApplication extends Application {
         // View For The Students In The Class
 
         listViewClassesS = new ListView<>();
-
 
         //hBoxHiddenId.getChildren().add(txtHiddenIdField);
 
@@ -454,6 +486,7 @@ public class CoreApplication extends Application {
         ObservableList<Student> dbData = FXCollections.observableList(classStudentList);
         return dbData;
     }
+
 
     public static void main(String[] args) {
 

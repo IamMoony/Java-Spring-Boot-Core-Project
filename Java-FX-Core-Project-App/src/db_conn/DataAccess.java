@@ -1,5 +1,6 @@
 package db_conn;
 
+import javafx.scene.control.ComboBox;
 import tables.Classes;
 import tables.Student;
 import tables.Subject;
@@ -48,6 +49,7 @@ public class DataAccess {
 
     /**
      * Get all db records
+     *
      * @return
      * @throws SQLException
      */
@@ -57,7 +59,7 @@ public class DataAccess {
     FETCH TEACHER DATA
     ##################
      */
-    public List<Teacher> getTeacherData()  throws SQLException {
+    public List<Teacher> getTeacherData() throws SQLException {
 
         String sql = "SELECT * FROM " + teacherTable + " ORDER BY teacherName";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
@@ -84,9 +86,9 @@ public class DataAccess {
   FETCH SUBJECT DATA
   ##################
    */
-    public List<Subject> getSubjectData(int i)  throws SQLException {
+    public List<Subject> getSubjectData(int i) throws SQLException {
 
-         String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+        String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
         // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
         // String sql = "SELECT * FROM " + subjectTable;
         PreparedStatement pstmnt = conn.prepareStatement(sql);
@@ -105,7 +107,7 @@ public class DataAccess {
         return subjectList;
     }
 
-    public List<Classes> getClassDataT(int i)  throws SQLException {
+    public List<Classes> getClassDataT(int i) throws SQLException {
 
         String sql = "SELECT classes.class_id, classes.className FROM classes INNER JOIN teacherclass ON classes.class_id  = teacherclass.fk_classes_id WHERE teacherclass.fk_teacher_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
@@ -145,7 +147,7 @@ public class DataAccess {
             String contactPerson = rs.getString("studentContactPerson");
             int fk_class_id = rs.getInt("fk_class_id");
 
-           studentList.add(new Student(id, name, surname, address, contactPerson, fk_class_id));
+            studentList.add(new Student(id, name, surname, address, contactPerson, fk_class_id));
         }
 
         pstmnt.close(); // also closes related result set
@@ -243,9 +245,13 @@ public class DataAccess {
             String cp = rs.getString("studentContactPerson");
             int fk = rs.getInt("fk_class_id");
             classStudentList.add(new Student(id, name, surname, address, cp, fk));
+
         }
 
         pstmnt.close(); // also closes related result set
         return classStudentList;
+
+
+         }
+
     }
-}
