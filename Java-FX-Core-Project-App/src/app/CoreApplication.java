@@ -4,12 +4,16 @@ import db_conn.DataAccess;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.geometry.Insets;
+import javafx.geometry.Pos;
+import javafx.scene.Cursor;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.VBox;
+import javafx.scene.layout.*;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import tables.*;
@@ -53,6 +57,10 @@ public class CoreApplication extends Application {
     private Text txtcontactPerson;
     private Text txtClass;
 
+    // HBoxes for student data display
+    HBox studentDataAddress;
+
+
     // DB Access
     private DataAccess dbDataAccess;
 
@@ -85,51 +93,103 @@ public class CoreApplication extends Application {
 
         primaryStage.setTitle("School Application");
 
-        // GridPane
-        /*
-        GridPane root = new GridPane();
-        root.setPadding(new Insets(20));
-        root.setHgap(25);
-        root.setVgap(15);
-        */
+        BorderPane bpRoot = new BorderPane();
 
         // Labels
         Label teacherLabel = new Label("Teacher");
+        teacherLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label hasSubjectsLabel = new Label("has subjects");
+        hasSubjectsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label teachesLabel = new Label("teaches");
+        teachesLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentLabel = new Label("Student");
+        studentLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentGradesLabel = new Label("Grades");
+        studentGradesLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentAddressLabel = new Label("Address");
+        studentAddressLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentContactPLabel = new Label("Contact Person");
+        studentContactPLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label classLabel = new Label("Class");
+        classLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentsLabel = new Label("Students");
+        studentsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
+        Label studentStatusLabel = new Label("Status");
+        studentsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
+
+        // Buttons
+        Button btnassignStudentGrade = new Button("Assign Grade");
+        btnassignStudentGrade.setCursor(Cursor.HAND);
 
         // VBox Root
         VBox root = new VBox();
+        root.setPadding(new Insets(10, 50, 50, 50));
+
+        // studentDataAddress = new HBox(studentAddressLabel, txtAddressField);
+       //  HBox studentDataACP = new HBox (studentContactPLabel, txtcontactPerson);
+       //  HBox studentDataClass = new HBox (classLabel, txtClass);
+
+
 
         // First Row Objects with Labels
         VBox vBoxR1Obj1 = new VBox(teacherLabel);
-        VBox vBoxR1Obj2 = new VBox(hasSubjectsLabel);
+        vBoxR1Obj1.setMaxHeight(400);
+        vBoxR1Obj1.setMaxWidth(400);
+        VBox vBoxR1Obj2 = new VBox();
+        vBoxR1Obj2.setMaxHeight(400);
+        vBoxR1Obj2.setMaxWidth(400);
         VBox vBoxR1Obj3 = new VBox(teachesLabel);
+        vBoxR1Obj3.setMaxHeight(400);
+        vBoxR1Obj3.setMaxWidth(400);
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
+        vBoxR2Obj1.setMaxHeight(400);
+        vBoxR2Obj1.setMaxWidth(400);
         VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
+        vBoxR2Obj2.setMaxHeight(400);
+        vBoxR2Obj2.setMaxWidth(400);
+        String cssLayout = "-fx-border-color: black;\n" +
+                "-fx-border-insets: 5;\n" +
+                "-fx-border-width: 1;\n" +
+                "-fx-border-style: line;\n";
+        vBoxR2Obj2.setStyle(cssLayout);
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
+        vBoxR2Obj3.setMaxHeight(400);
+        vBoxR2Obj3.setMaxWidth(400);
+        vBoxR2Obj3.setStyle(cssLayout);
         vBoxR2Obj4 = new VBox(studentGradesLabel);
+        vBoxR2Obj4.setMaxHeight(400);
+        vBoxR2Obj4.setMaxWidth(400);
+        vBoxR2Obj4.setStyle(cssLayout);
         VBox vBoxR2Obj5 = new VBox(classLabel);
+        vBoxR2Obj5.setMaxHeight(400);
+        vBoxR2Obj5.setMaxWidth(400);
+        vBoxR2Obj5.setStyle(cssLayout);
+        VBox vBoxR2Obj6 = new VBox(studentStatusLabel);
+        vBoxR2Obj6.setMaxHeight(400);
+        vBoxR2Obj6.setMaxWidth(400);
+        vBoxR2Obj6.setStyle(cssLayout);
 
-        // Third Row Objects with Labels
+        // Third row objects
         VBox vBoxR3Obj1 = new VBox(classLabel);
         VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
 
-        // First Row
+        // First row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
-        // Second Row
-        HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5);
-        // Third Row
+        hBoxFirstR.setSpacing(50);
+
+        // Second row
+        HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5, vBoxR2Obj6);
+        hBoxSecondR.setSpacing(50);
+
+        // Extra row for button
+        HBox hBoxSecondRB = new HBox(btnassignStudentGrade);
+
+        // Third row
         HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
+        hBoxThirdR.setSpacing(50);
 
         // Initialize Text Fields
         txtAddressField = new Text();
@@ -178,16 +238,18 @@ public class CoreApplication extends Application {
         vBoxR1Obj3.getChildren().add(listViewClassesT);
         vBoxR2Obj1.getChildren().add(listViewStudents);
         vBoxR2Obj2.getChildren().add(txtAddressField);
-        vBoxR2Obj3.getChildren().add(txtcontactPerson);
-        vBoxR2Obj4.getChildren().add(gradeBox);
-        vBoxR2Obj5.getChildren().add(txtClass);
+        // vBoxR2Obj3.getChildren().add(txtcontactPerson);
+        // vBoxR2Obj4.getChildren().add(gradeBox);
+        // vBoxR2Obj5.getChildren().add(txtClass);
         vBoxR3Obj1.getChildren().add(listViewClasses);
         vBoxR3Obj2.getChildren().add(listViewClassesS);
 
-        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
+        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxSecondRB, hBoxThirdR);
+        bpRoot.setCenter(root);
+        root.setAlignment(Pos.CENTER_LEFT);
 
         // show
-        Scene scene = new Scene(root, 900, 600);
+        Scene scene = new Scene(bpRoot, 900, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
 
