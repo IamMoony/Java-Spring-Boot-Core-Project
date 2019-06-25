@@ -156,6 +156,7 @@ public class CoreApplication extends Application {
         // VBox Root
         VBox root = new VBox(rootHeadingLabel);
         root.setPadding(new Insets(10, 50, 50, 50));
+        root.setAlignment(Pos.CENTER);
 
         // studentDataAddress = new HBox(studentAddressLabel, txtAddressField);
        //  HBox studentDataACP = new HBox (studentContactPLabel, txtcontactPerson);
@@ -211,18 +212,23 @@ public class CoreApplication extends Application {
         // First row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
         hBoxFirstR.setSpacing(50);
+        Region region1 = new Region();
+        // HBox.setHgrow(vBoxR1Obj3, Priority.ALWAYS);
 
         // Second row
         HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5, vBoxR2Obj6);
         hBoxSecondR.setSpacing(50);
+        // HBox.setHgrow(hBoxSecondR, Priority.ALWAYS);
 
         // Extra row for button
         HBox hBoxSecondRB = new HBox(subjectsLabel, comboBox, btnassignStudentGrade);
         hBoxSecondRB.setSpacing(10);
+        // HBox.setHgrow(hBoxSecondRB, Priority.ALWAYS);
 
         // Third row
         HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
         hBoxThirdR.setSpacing(50);
+        // HBox.setHgrow(hBoxThirdR, Priority.ALWAYS);
 
         // Initialize Text Fields
         txtAddressField = new Text();
