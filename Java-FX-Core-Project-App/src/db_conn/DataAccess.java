@@ -152,22 +152,20 @@ public class DataAccess {
         return studentList;
     }
 
-    public List<Classes> getStudentClass(int i) throws SQLException {
-        String sql = "SELECT class_id, classes.className FROM students INNER JOIN classes ON fk_class_id = classes.class_id WHERE student_id = ?";
+    public String getStudentClass(int i) throws SQLException {
+        String sql = "SELECT classes.className FROM students INNER JOIN classes ON fk_class_id = classes.class_id WHERE student_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
 
-        List<Classes> studentClassList = new ArrayList<>();
+        String studentClass = "";
 
         while (rs.next()) {
-            int id = rs.getInt("class_id");
-            String studentClass = rs.getString("className");
-            studentClassList.add(new Classes(id, studentClass));
+            studentClass = rs.getString("className");
         }
 
         pstmnt.close(); // also closes related result set
-        return studentClassList;
+        return studentClass;
     }
 
 

@@ -18,6 +18,7 @@ import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class CoreApplication extends Application {
@@ -266,7 +267,11 @@ public class CoreApplication extends Application {
             Student student = studentData.get(new_val.intValue());
             txtAddressField.setText(student.getAddress());
             txtcontactPerson.setText(student.getContactPerson());
-            txtClass.setText(Integer.toString(student.getFk_class_id()));
+            try {
+                txtClass.setText(dbDataAccess.getStudentClass(student.getId()));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 
