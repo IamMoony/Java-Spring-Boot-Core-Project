@@ -42,7 +42,7 @@ public class CoreApplication extends Application {
     private ObservableList<Grade> gradeData;
     private ObservableList<Classes> classData;
     private ObservableList<Student> classDataStudents;
-    // private ObservableList<Student> studentDataGrades;
+
 
     //Gridpane and box
     private GridPane gradeBox;
@@ -139,9 +139,6 @@ public class CoreApplication extends Application {
         //Gridpane for grades
         GridPane gradeBox = new GridPane();
 
-        // Hidden ID
-        // HBox hBoxHiddenId = new HBox(txtHiddenIdField);
-
         // View Teacher
         listViewTeachers = new ListView<>();
         listViewTeachers.getSelectionModel().selectedIndexProperty().addListener(new ListSelectChangeListenerTeacher());
@@ -156,15 +153,21 @@ public class CoreApplication extends Application {
 
         // View Students
         listViewStudents = new ListView();
-        listViewStudents.getSelectionModel().selectedIndexProperty().addListener(new ListSelectChangeListenerStudent());
+        listViewStudents.getSelectionModel().selectedIndexProperty().addListener(
+                new ListSelectChangeListenerStudent());
         studentData = getStudentData();
         listViewStudents.setItems(studentData);
 
         // View Classes
         listViewClasses = new ListView<>();
-        listViewClasses.getSelectionModel().selectedIndexProperty().addListener(new ListSelectChangeListenerTeacher());
+        listViewClasses.getSelectionModel().selectedIndexProperty().addListener(
+                new ListSelectChangeListenerClass());
         classData = getClassData();
         listViewClasses.setItems(classData);
+
+        // View For The Students In The Class
+
+        listViewClassesS = new ListView<>();
 
 
         //hBoxHiddenId.getChildren().add(txtHiddenIdField);
@@ -179,12 +182,12 @@ public class CoreApplication extends Application {
         vBoxR2Obj4.getChildren().add(gradeBox);
         vBoxR2Obj5.getChildren().add(txtClass);
         vBoxR3Obj1.getChildren().add(listViewClasses);
-        vBoxR3Obj2.getChildren().add(listViewClasses);
+        vBoxR3Obj2.getChildren().add(listViewClassesS);
 
         root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
 
         // show
-        Scene scene = new Scene(root);
+        Scene scene = new Scene(root, 900, 600);
         primaryStage.setScene(scene);
         primaryStage.show();
 
@@ -202,16 +205,17 @@ public class CoreApplication extends Application {
                 return; // invalid data
             }
 
-               // Set Teachers in List View
+               // Set Teacher Data in List View
                Teacher teacher = teacherData.get(new_val.intValue());
                teacherDataSubjects = getSubjectData(teacher.getId());
                teacherDataClasses = getTeacherDataClasses(teacher.getId());
 
-               // Set Subjects in List View
+               // Set Subject Data in List View
                listViewSubjects.setItems(teacherDataSubjects);
 
-               // Set Classes in List View
+               // Set Class Data in List View
                listViewClassesT.setItems(teacherDataClasses);
+
         }
     }
 
@@ -282,11 +286,11 @@ public class CoreApplication extends Application {
 
                 return; // invalid data
             }
-
+            // View for the class
             Classes classes = classData.get(new_val.intValue());
 
-            classDataStudents = getClassDataS(Integer.valueOf(classes.getId()));
-
+            // View for the students in a specific class
+            classDataStudents = getClassDataStudents(classes.getId());
             listViewClassesS.setItems(classDataStudents);
 
 
@@ -373,7 +377,7 @@ public class CoreApplication extends Application {
         return dbData;
     }
 
-    private ObservableList<Student> getClassDataS(int i) {
+    private ObservableList<Student> getClassDataStudents(int i) {
 
         List<Student> classStudentList = null;
 

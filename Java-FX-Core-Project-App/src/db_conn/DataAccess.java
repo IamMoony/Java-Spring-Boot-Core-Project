@@ -226,9 +226,9 @@ public class DataAccess {
         return classList;
     }
 
-    public List<Student> getClassDataS(int i)  throws SQLException {
+    public List<Student> getClassDataS(int i) throws SQLException {
 
-        String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN subjectclass ON subjects.subject_id  = subjectclass.fk_class_id WHERE subjectclass.fk_class_id = ?";
+        String sql = "SELECT students.student_id, students.studentName, students.studentSurname, students.studentAddress, students.StudentContactPerson, students.fk_class_id FROM students INNER JOIN classes ON students.fk_class_id = classes.class_id WHERE students.fk_class_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
