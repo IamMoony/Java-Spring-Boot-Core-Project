@@ -58,4 +58,12 @@ public class Student {
     public void setContactPerson(String contactPerson) {
         this.contactPerson = contactPerson;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "ID " + id + ":" +
+                name + ", " + surname;
+
+    }
 }

@@ -128,7 +128,7 @@ public class CoreApplication extends Application {
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
-        VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
+        VBox vBoxR2Obj2 = new VBox();
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
         VBox vBoxR2Obj4 = new VBox();
         VBox vBoxR2Obj5 = new VBox(classLabel);
@@ -137,8 +137,10 @@ public class CoreApplication extends Application {
         VBox vBoxR3Obj1 = new VBox(classLabel);
         VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
+
         // HBox Grades
-        HBox hBoxGradeMath = new HBox(mathLabel, txtGradeMath);
+        HBox hBoxGradeMath = new HBox(txtGradeMath);
+         /*
         HBox hBoxGradeEngl = new HBox(englLabel, txtGradeEng);
         HBox hBoxGradePhys = new HBox(physLabel, txtGradePhys);
         HBox hBoxGradeChem = new HBox(chemLabel, txtGradeChem);
@@ -147,6 +149,7 @@ public class CoreApplication extends Application {
         HBox hBoxGradeSpanish = new HBox(spanLabel, txtGradeSpan);
         HBox hBoxGradeIT = new HBox(itLabel, txtGradeIt);
         HBox hBoxGradeHist = new HBox(histLabel, txtGradeHis);
+          */
 
         // First Row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
@@ -171,7 +174,7 @@ public class CoreApplication extends Application {
         txtClass = new Text();
 
         // Hidden ID
-        HBox hBoxHiddenId = new HBox(txtHiddenIdField);
+        // HBox hBoxHiddenId = new HBox(txtHiddenIdField);
 
         // View Teacher
         listViewTeachers = new ListView<>();
@@ -196,15 +199,15 @@ public class CoreApplication extends Application {
 
         //hBoxHiddenId.getChildren().add(txtHiddenIdField);
 
-        // Set List Views
+        // Set Views
         vBoxR1Obj1.getChildren().add(listViewTeachers);
         vBoxR1Obj2.getChildren().add(listViewSubjects);
         vBoxR1Obj3.getChildren().add(listViewClasses);
         vBoxR2Obj1.getChildren().add(listViewStudents);
-        vBoxR2Obj2.getChildren().add(txtAddressField);
-        vBoxR2Obj3.getChildren().add(txtcontactPerson);
+        vBoxR2Obj2.getChildren().addAll(hBoxGradeMath);
+        // vBoxR2Obj3.getChildren().add(txtcontactPerson);
 
-        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR, hBoxHiddenId);
+        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
 
         // show
         Scene scene = new Scene(root);
