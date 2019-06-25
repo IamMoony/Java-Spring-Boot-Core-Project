@@ -55,9 +55,6 @@ public class CoreApplication extends Application {
     private Text txtGradeHis;
     private Text txtClass;
 
-    // Get ID
-    private Text txtHiddenIdField;
-
     // DB Access
     private DataAccess dbDataAccess;
 
@@ -147,7 +144,6 @@ public class CoreApplication extends Application {
         HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
 
         // Initialize Text Fields
-        txtHiddenIdField = new Text();
         txtAddressField = new Text();
         txtcontactPerson = new Text();
         txtGradeMath = new Text();
@@ -242,9 +238,8 @@ public class CoreApplication extends Application {
 
                // Set Teachers in List View
                Teacher teacher = teacherData.get(new_val.intValue());
-               txtHiddenIdField.setText(Integer.toString(teacher.getId()));
-               teacherDataSubjects = getSubjectData(Integer.valueOf(txtHiddenIdField.getText()));
-               teacherDataClasses = getTeacherDataClasses(Integer.valueOf(txtHiddenIdField.getText()));
+               teacherDataSubjects = getSubjectData(teacher.getId());
+               teacherDataClasses = getTeacherDataClasses(teacher.getId());
 
                // Set Subjects in List View
                listViewSubjects.setItems(teacherDataSubjects);
