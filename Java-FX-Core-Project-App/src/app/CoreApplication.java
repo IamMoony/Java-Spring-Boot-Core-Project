@@ -43,7 +43,15 @@ public class CoreApplication extends Application {
     // Text Fields
     private Text txtAddressField;
     private Text txtcontactPerson;
-    private Text txtGrade;
+    private Text txtGradeMath;
+    private Text txtGradeEng;
+    private Text txtGradePhys;
+    private Text txtGradeChem;
+    private Text txtGradeGer;
+    private Text txtGradeBio;
+    private Text txtGradeSpan;
+    private Text txtGradeIt;
+    private Text txtGradeHis;
     private Text txtClass;
 
     // Get ID
@@ -99,6 +107,16 @@ public class CoreApplication extends Application {
         Label classLabel = new Label("Class");
         Label studentsLabel = new Label("Students");
 
+        // Labels Grades
+        Label mathLabel = new Label("Math");
+        Label englLabel = new Label("English");
+        Label physLabel = new Label("Physics");
+        Label chemLabel = new Label("Chemistry");
+        Label gerLabel = new Label("German");
+        Label bioLabel = new Label("Biology");
+        Label spanLabel = new Label("Spanish");
+        Label itLabel = new Label("IT");
+        Label histLabel = new Label("History");
 
         // VBox Root
         VBox root = new VBox();
@@ -119,6 +137,17 @@ public class CoreApplication extends Application {
         VBox vBoxR3Obj1 = new VBox(classLabel);
         VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
+        // HBox Grades
+        HBox hBoxGradeMath = new HBox(mathLabel, txtGradeMath);
+        HBox hBoxGradeEngl = new HBox(englLabel, txtGradeEng);
+        HBox hBoxGradePhys = new HBox(physLabel, txtGradePhys);
+        HBox hBoxGradeChem = new HBox(chemLabel, txtGradeChem);
+        HBox hBoxGradeGer = new HBox(gerLabel, txtGradeGer);
+        HBox hBoxGradeBio = new HBox(bioLabel, txtGradeBio);
+        HBox hBoxGradeSpanish = new HBox(spanLabel, txtGradeSpan);
+        HBox hBoxGradeIT = new HBox(itLabel, txtGradeIt);
+        HBox hBoxGradeHist = new HBox(histLabel, txtGradeHis);
+
         // First Row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
         // Second Row
@@ -130,7 +159,15 @@ public class CoreApplication extends Application {
         txtHiddenIdField = new Text();
         txtAddressField = new Text();
         txtcontactPerson = new Text();
-        txtGrade = new Text();
+        txtGradeMath = new Text();
+        txtGradeEng = new Text();
+        txtGradePhys = new Text();
+        txtGradeChem = new Text();
+        txtGradeGer = new Text();
+        txtGradeSpan = new Text();
+        txtGradeBio = new Text();
+        txtGradeHis = new Text();
+        txtGradeIt = new Text();
         txtClass = new Text();
 
         // Hidden ID
