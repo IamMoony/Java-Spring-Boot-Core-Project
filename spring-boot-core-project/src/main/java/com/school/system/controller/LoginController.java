@@ -1,7 +1,6 @@
 package com.school.system.controller;
 
 import javax.validation.Valid;
-
 import com.school.system.model.User;
 import com.school.system.repository.UserRepository;
 import com.school.system.service.UserService;
