@@ -263,6 +263,9 @@ public class CoreApplication extends Application {
                // Set Subjects in List View
                listViewSubjects.setItems(teacherDataSubjects);
 
+               // Set Classes in List View
+                listViewClasses.setItems(teacherDataClasses);
+
                // Set Student and Student Data in List View / Text Fields
                Student student = studentData.get(new_val.intValue());
                txtAddressField.setText(student.getAddress());
