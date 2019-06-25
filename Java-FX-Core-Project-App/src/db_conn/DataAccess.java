@@ -32,10 +32,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/java_group_project_test" +
+                "jdbc:mysql://localhost/Java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "");
+                "moony#1423");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -174,7 +174,7 @@ public class DataAccess {
     FETCH CLASS DATA
     ##################
      */
-    /*
+
     public List<Classes> getClassData() throws SQLException {
 
         String sql = "SELECT * FROM " + classTable + " ORDER BY className";
@@ -193,5 +193,27 @@ public class DataAccess {
         pstmnt.close(); // also closes related result set
         return classList;
     }
-*/
+
+    public List<Student> getClassDataS(int i)  throws SQLException {
+
+        String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN subjectclass ON subjects.subject_id  = subjectclass.fk_class_id WHERE subjectclass.fk_class_id = ?";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, i);
+        ResultSet rs = pstmnt.executeQuery();
+
+        List<Student> classStudentList = new ArrayList<>();
+
+        while (rs.next()) {
+            int id = rs.getInt("student_id");
+            String name = rs.getString("studentName");
+            String surname = rs.getString("studentSurname");
+            String address = rs.getString("studentAddress");
+            String cp = rs.getString("studentContactPerson");
+            int fk = rs.getInt("fk_class_id");
+            classStudentList.add(new Student(id, name, surname, address, cp, fk));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return classStudentList;
+    }
 }
