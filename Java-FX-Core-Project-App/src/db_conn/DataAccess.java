@@ -32,10 +32,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/Java_group_project_test" +
+                "jdbc:mysql://localhost/java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "moony#1423");
+                "");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -107,9 +107,7 @@ public class DataAccess {
 
     public List<Classes> getClassDataT(int i)  throws SQLException {
 
-        String sql = "SELECT classes.class_id, classes.className FROM classes INNER JOIN teacherclass ON classes.classes_id  = teacherclass.fk_class_id WHERE teacherclass.fk_teacher_id = ?";
-        // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
-        // String sql = "SELECT * FROM " + subjectTable;
+        String sql = "SELECT classes.class_id, classes.className FROM classes INNER JOIN teacherclass ON classes.class_id  = teacherclass.fk_classes_id WHERE teacherclass.fk_teacher_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();

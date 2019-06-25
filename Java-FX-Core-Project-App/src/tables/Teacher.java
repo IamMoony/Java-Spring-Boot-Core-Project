@@ -51,9 +51,7 @@ public class Teacher {
 
     @Override
     public String toString() {
-        return  "ID " + id + ":" +
-                " " +  name +
-                surname;
+        return name + " " + surname;
 
     }
 }

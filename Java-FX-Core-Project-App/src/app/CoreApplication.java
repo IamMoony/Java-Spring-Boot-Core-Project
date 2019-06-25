@@ -139,20 +139,6 @@ public class CoreApplication extends Application {
         VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
 
-        // HBox Grades
-        // HBox hBoxGradeMath = new HBox();
-        // hBoxGradeMath.getChildren().addAll(mathLabel, txtGradeMath);
-         /*
-        HBox hBoxGradeEngl = new HBox(englLabel, txtGradeEng);
-        HBox hBoxGradePhys = new HBox(physLabel, txtGradePhys);
-        HBox hBoxGradeChem = new HBox(chemLabel, txtGradeChem);
-        HBox hBoxGradeGer = new HBox(gerLabel, txtGradeGer);
-        HBox hBoxGradeBio = new HBox(bioLabel, txtGradeBio);
-        HBox hBoxGradeSpanish = new HBox(spanLabel, txtGradeSpan);
-        HBox hBoxGradeIT = new HBox(itLabel, txtGradeIt);
-        HBox hBoxGradeHist = new HBox(histLabel, txtGradeHis);
-          */
-
         // First Row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
         // Second Row
@@ -205,8 +191,7 @@ public class CoreApplication extends Application {
 
         // View Teacher
         listViewTeachers = new ListView<>();
-        listViewTeachers.getSelectionModel().selectedIndexProperty().addListener(
-                new ListSelectChangeListener());
+        listViewTeachers.getSelectionModel().selectedIndexProperty().addListener(new ListSelectChangeListenerTeacher());
         teacherData = getTeacherData();
         listViewTeachers.setItems(teacherData);
 
@@ -218,8 +203,7 @@ public class CoreApplication extends Application {
 
         // View Students
         listViewStudents = new ListView();
-        listViewStudents.getSelectionModel().selectedIndexProperty().addListener(
-                new ListSelectChangeListener());
+        listViewStudents.getSelectionModel().selectedIndexProperty().addListener(new ListSelectChangeListenerStudent());
         studentData = getStudentData();
         listViewStudents.setItems(studentData);
 
@@ -232,6 +216,7 @@ public class CoreApplication extends Application {
         vBoxR1Obj3.getChildren().add(listViewClassesT);
         vBoxR2Obj1.getChildren().add(listViewStudents);
         vBoxR2Obj2.getChildren().add(txtAddressField);
+        vBoxR2Obj3.getChildren().add(txtcontactPerson);
         vBoxR2Obj4.getChildren().add(gradeBox);
 
         root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
@@ -244,7 +229,7 @@ public class CoreApplication extends Application {
 
     }
 
-    private class ListSelectChangeListener implements ChangeListener<Number> {
+    private class ListSelectChangeListenerTeacher implements ChangeListener<Number> {
 
         @Override
         public void changed(ObservableValue<? extends Number> ov,
@@ -259,19 +244,32 @@ public class CoreApplication extends Application {
                Teacher teacher = teacherData.get(new_val.intValue());
                txtHiddenIdField.setText(Integer.toString(teacher.getId()));
                teacherDataSubjects = getSubjectData(Integer.valueOf(txtHiddenIdField.getText()));
+               teacherDataClasses = getTeacherDataClasses(Integer.valueOf(txtHiddenIdField.getText()));
 
                // Set Subjects in List View
                listViewSubjects.setItems(teacherDataSubjects);
 
                // Set Classes in List View
                listViewClassesT.setItems(teacherDataClasses);
+        }
+    }
 
-               // Set Student and Student Data in List View / Text Fields
-               Student student = studentData.get(new_val.intValue());
-               txtAddressField.setText(student.getAddress());
-               txtcontactPerson.setText(student.getContactPerson());
-               // txtClass.setText(student.getClass());
+    private class ListSelectChangeListenerStudent implements ChangeListener<Number> {
 
+        @Override
+        public void changed(ObservableValue<? extends Number> ov,
+                            Number old_val, Number new_val) {
+
+            if ((new_val.intValue() < 0) || (new_val.intValue() >= teacherData.size())) {
+
+                return; // invalid data
+            }
+
+            // Set Student and Student Data in List View / Text Fields
+            Student student = studentData.get(new_val.intValue());
+            txtAddressField.setText(student.getAddress());
+            txtcontactPerson.setText(student.getContactPerson());
+            // txtClass.setText(student.getClass())
         }
     }
 
