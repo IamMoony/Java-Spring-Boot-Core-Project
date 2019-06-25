@@ -31,10 +31,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/java_group_project_test" +
+                "jdbc:mysql://localhost/Java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "");
+                "moony#1423");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -85,10 +85,11 @@ public class DataAccess {
    */
     public List<Subject> getSubjectData(int i)  throws SQLException {
 
-        // String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+         String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
         // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
-        String sql = "SELECT * FROM " + subjectTable;
+        // String sql = "SELECT * FROM " + subjectTable;
         PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
 
         List<Subject> subjectList = new ArrayList<>();
@@ -101,6 +102,27 @@ public class DataAccess {
 
         pstmnt.close(); // also closes related result set
         return subjectList;
+    }
+
+    public List<Subject> getClassDataT(int i)  throws SQLException {
+
+        String sql = "SELECT classes.classes_id, classes.className FROM classes INNER JOIN teacherclass ON classes.classes_id  = teacherclass.fk_class_id WHERE teacherclass.fk_teacher_id = ?";
+        // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
+        // String sql = "SELECT * FROM " + subjectTable;
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, i);
+        ResultSet rs = pstmnt.executeQuery();
+
+        List<Subject> classList = new ArrayList<>();
+
+        while (rs.next()) {
+            int id = rs.getInt("classes_id");
+            String name = rs.getString("className");
+            classList.add(new Subject(id, name));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return classList;
     }
 
     /*

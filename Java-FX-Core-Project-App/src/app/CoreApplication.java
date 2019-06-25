@@ -25,7 +25,7 @@ public class CoreApplication extends Application {
     private ListView<Teacher> listViewTeachers;
     private ListView<Subject> listViewSubjects;
     private ListView<Classes> listViewClassesT;
-    private ListView<Subject> listViewStudents;
+    private ListView<Student> listViewStudents;
     private ListView<Subject> listViewGradesS;
     private ListView<Classes> listViewClasses;
     private ListView<Subject> listViewClassesSubj;
@@ -45,11 +45,9 @@ public class CoreApplication extends Application {
     private Text txtcontactPerson;
     private Text txtGrade;
     private Text txtClass;
-    private Text txtHiddenIdField;
 
     // Get ID
-
-    private Text txtTeacherId;
+    private Text txtHiddenIdField;
 
     // DB Access
     private DataAccess dbDataAccess;
@@ -95,60 +93,79 @@ public class CoreApplication extends Application {
         Label teacherLabel = new Label("Teacher");
         Label hasSubjectsLabel = new Label("has subjects");
         Label teachesLabel = new Label("teaches");
+        Label studentLabel = new Label("Student");
+        Label studentAddressLabel = new Label("Address");
+        Label studentContactPLabel = new Label("Contact Person");
+        Label classLabel = new Label("Class");
+        Label studentsLabel = new Label("Students");
+
 
         // VBox Root
         VBox root = new VBox();
 
-        // First Row Objects
+        // First Row Objects with Labels
         VBox vBoxR1Obj1 = new VBox(teacherLabel);
         VBox vBoxR1Obj2 = new VBox(hasSubjectsLabel);
         VBox vBoxR1Obj3 = new VBox(teachesLabel);
 
-        // Second Row Objects
-        //VBox vBoxR2Obj1 = new VBox();
-        //VBox hBoxR2Obj2 = new VBox();
-        //VBox hBoxR2Obj3 = new VBox();
-        //VBox hBoxR2Obj4 = new VBox();
-        //VBox hBoxR2Obj5 = new VBox();
+        // Second Row Objects with Labels
+        VBox vBoxR2Obj1 = new VBox(studentLabel);
+        VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
+        VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
+        VBox vBoxR2Obj4 = new VBox();
+        VBox vBoxR2Obj5 = new VBox(classLabel);
 
-        // Third Row Objects
-        VBox vBoxR3Obj1 = new VBox();
-        VBox vBoxR3Obj2 = new VBox();
+        // Third Row Objects with Labels
+        VBox vBoxR3Obj1 = new VBox(classLabel);
+        VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
         // First Row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
         // Second Row
-        HBox hBoxSecondR = new HBox();
+        HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5);
         // Third Row
-        HBox hBoxThirdR = new HBox();
+        HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
 
-        // Hidden HBOX
+        // Initialize Text Fields
         txtHiddenIdField = new Text();
+        txtAddressField = new Text();
+        txtcontactPerson = new Text();
+        txtGrade = new Text();
+        txtClass = new Text();
+
+        // Hidden ID
         HBox hBoxHiddenId = new HBox(txtHiddenIdField);
 
-
-
-
-
         // View Teacher
-
         listViewTeachers = new ListView<>();
         listViewTeachers.getSelectionModel().selectedIndexProperty().addListener(
                 new ListSelectChangeListener());
         teacherData = getTeacherData();
         listViewTeachers.setItems(teacherData);
 
+        // View Subjects
         listViewSubjects = new ListView<>();
-        // teacherDataSubjects = getSubjectData();
+
+        // View Classes
+        listViewClasses = new ListView<>();
+
+        // View Students
+        listViewStudents = new ListView();
+        listViewStudents.getSelectionModel().selectedIndexProperty().addListener(
+                new ListSelectChangeListener());
+        studentData = getStudentData();
+        listViewStudents.setItems(studentData);
 
 
-//hBoxHiddenId.getChildren().add(txtHiddenIdField);
+        //hBoxHiddenId.getChildren().add(txtHiddenIdField);
 
+        // Set List Views
         vBoxR1Obj1.getChildren().add(listViewTeachers);
         vBoxR1Obj2.getChildren().add(listViewSubjects);
-
-
-        // vBoxR1Obj2.getChildren().add(listViewSubjects);
+        vBoxR1Obj3.getChildren().add(listViewClasses);
+        vBoxR2Obj1.getChildren().add(listViewStudents);
+        vBoxR2Obj2.getChildren().add(txtAddressField);
+        vBoxR2Obj3.getChildren().add(txtcontactPerson);
 
         root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR, hBoxHiddenId);
 
@@ -171,14 +188,19 @@ public class CoreApplication extends Application {
                 return; // invalid data
             }
 
-            // Set Subjects in List View
-
+               // Set Teachers in List View
                Teacher teacher = teacherData.get(new_val.intValue());
-                txtHiddenIdField.setText(Integer.toString(teacher.getId()));
-
+               txtHiddenIdField.setText(Integer.toString(teacher.getId()));
                teacherDataSubjects = getSubjectData(Integer.valueOf(txtHiddenIdField.getText()));
 
+               // Set Subjects in List View
                listViewSubjects.setItems(teacherDataSubjects);
+
+               // Set Student and Student Data in List View / Text Fields
+               Student student = studentData.get(new_val.intValue());
+               txtAddressField.setText(student.getAddress());
+               txtcontactPerson.setText(student.getContactPerson());
+               // txtClass.setText(student.getClass());
 
         }
     }
@@ -212,6 +234,22 @@ public class CoreApplication extends Application {
         }
 
         ObservableList<Subject> dbData = FXCollections.observableList(subjectList);
+        return dbData;
+    }
+
+    private ObservableList<Student> getStudentData() {
+
+        List<Student> studentList = null;
+
+        try {
+            studentList = dbDataAccess.getStudentData();
+        }
+        catch (Exception e) {
+
+            displayException(e);
+        }
+
+        ObservableList<Student> dbData = FXCollections.observableList(studentList);
         return dbData;
     }
 
