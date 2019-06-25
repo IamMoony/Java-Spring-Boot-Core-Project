@@ -100,6 +100,7 @@ public class CoreApplication extends Application {
         Label hasSubjectsLabel = new Label("has subjects");
         Label teachesLabel = new Label("teaches");
         Label studentLabel = new Label("Student");
+        Label studentGradesLabel = new Label("Grades");
         Label studentAddressLabel = new Label("Address");
         Label studentContactPLabel = new Label("Contact Person");
         Label classLabel = new Label("Class");
@@ -126,14 +127,14 @@ public class CoreApplication extends Application {
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
-        VBox vBoxR2Obj2 = new VBox();
+        VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
-        VBox vBoxR2Obj4 = new VBox();
+        VBox vBoxR2Obj4 = new VBox(studentGradesLabel);
         VBox vBoxR2Obj5 = new VBox(classLabel);
 
         // Third Row Objects with Labels
-        VBox vBoxR3Obj1 = new VBox(classLabel);
-        VBox vBoxR3Obj2 = new VBox(studentsLabel);
+        // VBox vBoxR3Obj1 = new VBox(classLabel);
+        // VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
 
         // First Row
@@ -141,7 +142,7 @@ public class CoreApplication extends Application {
         // Second Row
         HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5);
         // Third Row
-        HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
+        // HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
 
         // Initialize Text Fields
         txtAddressField = new Text();
@@ -214,8 +215,9 @@ public class CoreApplication extends Application {
         vBoxR2Obj2.getChildren().add(txtAddressField);
         vBoxR2Obj3.getChildren().add(txtcontactPerson);
         vBoxR2Obj4.getChildren().add(gradeBox);
+        vBoxR2Obj5.getChildren().add(txtClass);
 
-        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
+        root.getChildren().addAll(hBoxFirstR, hBoxSecondR);
 
         // show
         Scene scene = new Scene(root);
@@ -264,7 +266,7 @@ public class CoreApplication extends Application {
             Student student = studentData.get(new_val.intValue());
             txtAddressField.setText(student.getAddress());
             txtcontactPerson.setText(student.getContactPerson());
-            // txtClass.setText(student.getClass())
+            txtClass.setText(Integer.toString(student.getFk_class_id()));
         }
     }
 
