@@ -19,6 +19,7 @@ import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class CoreApplication extends Application {
@@ -43,19 +44,13 @@ public class CoreApplication extends Application {
     private ObservableList<Student> classDataStudents;
     // private ObservableList<Student> studentDataGrades;
 
+    //Gridpane and box
+    private GridPane gradeBox;
+    VBox vBoxR2Obj4;
 
     // Text Fields
     private Text txtAddressField;
     private Text txtcontactPerson;
-    private Text txtGradeMath;
-    private Text txtGradeEng;
-    private Text txtGradePhys;
-    private Text txtGradeChem;
-    private Text txtGradeGer;
-    private Text txtGradeBio;
-    private Text txtGradeSpan;
-    private Text txtGradeIt;
-    private Text txtGradeHis;
     private Text txtClass;
 
     // DB Access
@@ -109,17 +104,6 @@ public class CoreApplication extends Application {
         Label classLabel = new Label("Class");
         Label studentsLabel = new Label("Students");
 
-        // Labels Grades
-        Label mathLabel = new Label("Math");
-        Label englLabel = new Label("English");
-        Label physLabel = new Label("Physics");
-        Label chemLabel = new Label("Chemistry");
-        Label gerLabel = new Label("German");
-        Label bioLabel = new Label("Biology");
-        Label spanLabel = new Label("Spanish");
-        Label itLabel = new Label("IT");
-        Label histLabel = new Label("History");
-
         // VBox Root
         VBox root = new VBox();
 
@@ -132,7 +116,7 @@ public class CoreApplication extends Application {
         VBox vBoxR2Obj1 = new VBox(studentLabel);
         VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
-        VBox vBoxR2Obj4 = new VBox(studentGradesLabel);
+        vBoxR2Obj4 = new VBox(studentGradesLabel);
         VBox vBoxR2Obj5 = new VBox(classLabel);
 
         // Third Row Objects with Labels
@@ -150,41 +134,10 @@ public class CoreApplication extends Application {
         // Initialize Text Fields
         txtAddressField = new Text();
         txtcontactPerson = new Text();
-        txtGradeMath = new Text();
-        txtGradeEng = new Text();
-        txtGradePhys = new Text();
-        txtGradeChem = new Text();
-        txtGradeGer = new Text();
-        txtGradeSpan = new Text();
-        txtGradeBio = new Text();
-        txtGradeHis = new Text();
-        txtGradeIt = new Text();
         txtClass = new Text();
 
         //Gridpane for grades
         GridPane gradeBox = new GridPane();
-
-        //put labels in gridpane
-        gradeBox.add(mathLabel, 1, 1);
-        gradeBox.add(englLabel, 1, 2);
-        gradeBox.add(physLabel, 1, 3);
-        gradeBox.add(chemLabel, 1, 4);
-        gradeBox.add(gerLabel, 1, 5);
-        gradeBox.add(bioLabel, 1, 6);
-        gradeBox.add(spanLabel, 1, 7);
-        gradeBox.add(itLabel, 1, 8);
-        gradeBox.add(histLabel, 1, 9);
-
-        //put text in label
-        gradeBox.add(txtGradeMath, 2, 1);
-        gradeBox.add(txtGradeEng, 2, 2);
-        gradeBox.add(txtGradePhys, 2, 3);
-        gradeBox.add(txtGradeChem, 2, 4);
-        gradeBox.add(txtGradeGer, 2, 5);
-        gradeBox.add(txtGradeBio, 2, 6);
-        gradeBox.add(txtGradeSpan, 2, 7);
-        gradeBox.add(txtGradeIt, 2, 8);
-        gradeBox.add(txtGradeHis, 2, 9);
 
         // Hidden ID
         // HBox hBoxHiddenId = new HBox(txtHiddenIdField);
@@ -226,7 +179,7 @@ public class CoreApplication extends Application {
         vBoxR2Obj4.getChildren().add(gradeBox);
         vBoxR2Obj5.getChildren().add(txtClass);
         vBoxR3Obj1.getChildren().add(listViewClasses);
-        vBoxR3Obj2.getChildren().add(listViewClassesS);
+        vBoxR3Obj2.getChildren().add(listViewClasses);
 
         root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
 
@@ -277,14 +230,48 @@ public class CoreApplication extends Application {
             Student student = studentData.get(new_val.intValue());
             txtAddressField.setText(student.getAddress());
             txtcontactPerson.setText(student.getContactPerson());
+
             try {
                 txtClass.setText(dbDataAccess.getStudentClass(student.getId()));
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
+
+            try {
+                vBoxR2Obj4.getChildren().remove(gradeBox);
+
+                ArrayList<String> studentsSubjects = dbDataAccess.getStudentSubjects(student.getId());
+                gradeBox = new GridPane();
+                gradeBox.setHgap(5);
+                gradeBox.setVgap(5);
+
+                for (int index = 0; index < studentsSubjects.size(); index++) {
+                    Label subject = new Label(studentsSubjects.get(index));
+                    System.out.println(studentsSubjects.get(index));
+                    gradeBox.add(subject, 1, index + 1);
+                }
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+            try {
+                ArrayList<String> studentsGrades = dbDataAccess.getStudentGrades(student.getId());
+
+                for (int index = 0; index < studentsGrades.size(); index++) {
+                    Label subject = new Label(studentsGrades.get(index));
+                    System.out.println(studentsGrades.get(index));
+                    gradeBox.add(subject, 2, index + 1);
+                }
+
+                vBoxR2Obj4.getChildren().add(gradeBox);
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
-
     private class ListSelectChangeListenerClass implements ChangeListener<Number> {
 
         @Override

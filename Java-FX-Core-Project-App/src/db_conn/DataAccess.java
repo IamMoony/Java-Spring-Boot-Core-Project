@@ -32,10 +32,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/Java_group_project_test" +
+                "jdbc:mysql://localhost/java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "moony#1423");
+                "");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -166,6 +166,38 @@ public class DataAccess {
 
         pstmnt.close(); // also closes related result set
         return studentClass;
+    }
+
+    public ArrayList<String> getStudentSubjects(int i) throws SQLException {
+        String sql = "SELECT subjects.subjectName FROM students INNER JOIN classes ON students.fk_class_id = classes.class_id INNER JOIN subjectclass ON classes.class_id = subjectclass.fk_class_id INNER JOIN subjects ON subjectclass.fk_subject_id = subjects.subject_id WHERE students.student_id = ?";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, i);
+        ResultSet rs = pstmnt.executeQuery();
+
+        ArrayList subjects = new ArrayList();
+
+        while (rs.next()) {
+            subjects.add(rs.getString("subjectName"));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return subjects;
+    }
+
+    public ArrayList<String> getStudentGrades(int i) throws SQLException {
+        String sql = "SELECT students.studentName, classes.className, grades.grade FROM students INNER JOIN classes ON students.fk_class_id = classes.class_id INNER JOIN assigngradestudent ON students.student_id = assigngradestudent.fk_student_id INNER JOIN grades ON assigngradestudent.fk_grade_id = grades.grade_id WHERE students.student_id = ?";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, i);
+        ResultSet rs = pstmnt.executeQuery();
+
+        ArrayList grades = new ArrayList();
+
+        while (rs.next()) {
+            grades.add(rs.getString("grade"));
+        }
+
+        pstmnt.close(); // also closes related result set
+        return grades;
     }
 
 
