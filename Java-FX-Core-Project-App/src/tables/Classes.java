@@ -4,14 +4,10 @@ public class Classes {
 
     private int id;
     private String name;
-    private String surname;
-    private String address;
 
-    public Classes(int id, String name, String surname, String address) {
+    public Classes(int id, String name) {
         this.id = id;
         this.name = name;
-        this.surname = surname;
-        this.address = address;
     }
 
     public int getId() {
@@ -30,19 +26,11 @@ public class Classes {
         this.name = name;
     }
 
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
+    @Override
+    public String toString() {
+        return "Classes{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }

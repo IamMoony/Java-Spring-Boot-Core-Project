@@ -213,8 +213,8 @@ public class CoreApplication extends Application {
         // View Subjects
         listViewSubjects = new ListView<>();
 
-        // View Classes
-        listViewClasses = new ListView<>();
+        // View ClassesT
+        listViewClassesT = new ListView<>();
 
         // View Students
         listViewStudents = new ListView();
@@ -229,7 +229,7 @@ public class CoreApplication extends Application {
         // Set Views
         vBoxR1Obj1.getChildren().add(listViewTeachers);
         vBoxR1Obj2.getChildren().add(listViewSubjects);
-        vBoxR1Obj3.getChildren().add(listViewClasses);
+        vBoxR1Obj3.getChildren().add(listViewClassesT);
         vBoxR2Obj1.getChildren().add(listViewStudents);
         vBoxR2Obj2.getChildren().add(txtAddressField);
         vBoxR2Obj4.getChildren().add(gradeBox);
@@ -264,7 +264,7 @@ public class CoreApplication extends Application {
                listViewSubjects.setItems(teacherDataSubjects);
 
                // Set Classes in List View
-                listViewClasses.setItems(teacherDataClasses);
+               listViewClassesT.setItems(teacherDataClasses);
 
                // Set Student and Student Data in List View / Text Fields
                Student student = studentData.get(new_val.intValue());
@@ -304,6 +304,22 @@ public class CoreApplication extends Application {
         }
 
         ObservableList<Subject> dbData = FXCollections.observableList(subjectList);
+        return dbData;
+    }
+
+    private ObservableList<Classes> getTeacherDataClasses(int i) {
+
+        List<Classes> classList = null;
+
+        try {
+            classList = dbDataAccess.getClassDataT(i);
+        }
+        catch (Exception e) {
+
+            displayException(e);
+        }
+
+        ObservableList<Classes> dbData = FXCollections.observableList(classList);
         return dbData;
     }
 

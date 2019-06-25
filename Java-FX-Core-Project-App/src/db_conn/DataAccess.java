@@ -1,5 +1,6 @@
 package db_conn;
 
+import tables.Classes;
 import tables.Student;
 import tables.Subject;
 import tables.Teacher;
@@ -31,10 +32,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/java_group_project_test" +
+                "jdbc:mysql://localhost/Java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "");
+                "moony#1423");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -104,21 +105,21 @@ public class DataAccess {
         return subjectList;
     }
 
-    public List<Subject> getClassDataT(int i)  throws SQLException {
+    public List<Classes> getClassDataT(int i)  throws SQLException {
 
-        String sql = "SELECT classes.classes_id, classes.className FROM classes INNER JOIN teacherclass ON classes.classes_id  = teacherclass.fk_class_id WHERE teacherclass.fk_teacher_id = ?";
+        String sql = "SELECT classes.class_id, classes.className FROM classes INNER JOIN teacherclass ON classes.classes_id  = teacherclass.fk_class_id WHERE teacherclass.fk_teacher_id = ?";
         // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
         // String sql = "SELECT * FROM " + subjectTable;
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
 
-        List<Subject> classList = new ArrayList<>();
+        List<Classes> classList = new ArrayList<>();
 
         while (rs.next()) {
-            int id = rs.getInt("classes_id");
+            int id = rs.getInt("class_id");
             String name = rs.getString("className");
-            classList.add(new Subject(id, name));
+            classList.add(new Classes(id, name));
         }
 
         pstmnt.close(); // also closes related result set
