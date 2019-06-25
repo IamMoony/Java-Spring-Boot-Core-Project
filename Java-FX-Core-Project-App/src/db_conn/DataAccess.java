@@ -31,7 +31,7 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/java_core-project-test" +
+                "jdbc:mysql://localhost/java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
                 "");
@@ -85,17 +85,17 @@ public class DataAccess {
    */
     public List<Subject> getSubjectData(int i)  throws SQLException {
 
-        String sql = "SELECT subjects.subject_Id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
+        // String sql = "SELECT subjects.subject_id, subjects.subjectName FROM subjects INNER JOIN teachersubject ON subjects.subject_Id  = teachersubject.fk_subject_Id WHERE teachersubject.fk_teacher_Id = ?";
         // "SELECT class.classId, class.className FROM class INNER JOIN teacherclass ON class.classId = teacherclass.fk_classId WHERE teacherclass.fk_teacherId = ?";
+        String sql = "SELECT * FROM " + subjectTable;
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
 
         List<Subject> subjectList = new ArrayList<>();
 
         while (rs.next()) {
-            int id = rs.getInt("subject_Id");
+            int id = rs.getInt("subject_id");
             String name = rs.getString("subjectName");
-
             subjectList.add(new Subject(id, name));
         }
 
