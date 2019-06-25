@@ -2,10 +2,10 @@
 -- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost:3306
--- Erstellungszeit: 25. Jun 2019 um 09:06
--- Server-Version: 5.7.26
--- PHP-Version: 7.2.7
+-- Host: 127.0.0.1
+-- Erstellungszeit: 25. Jun 2019 um 11:39
+-- Server-Version: 10.1.38-MariaDB
+-- PHP-Version: 7.3.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Datenbank: `benjamin_java_core_project`
+-- Datenbank: `java_group_project_test`
 --
 
 -- --------------------------------------------------------
@@ -30,9 +30,85 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `assigngradestudent` (
   `fk_student_id` int(11) NOT NULL,
-  `fk_teacher_id` int(11) NOT NULL,
+  `fk_subject_id` int(11) NOT NULL,
   `fk_grade_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+
+--
+-- Daten für Tabelle `assigngradestudent`
+--
+
+INSERT INTO `assigngradestudent` (`fk_student_id`, `fk_subject_id`, `fk_grade_id`) VALUES
+(1, 1, 1),
+(1, 9, 2),
+(2, 1, 3),
+(2, 9, 1),
+(3, 1, 3),
+(3, 9, 5),
+(4, 1, 2),
+(4, 9, 4),
+(5, 1, 3),
+(5, 9, 1),
+(6, 2, 4),
+(6, 9, 4),
+(7, 2, 2),
+(7, 9, 1),
+(8, 2, 1),
+(8, 9, 1),
+(9, 2, 4),
+(9, 9, 5),
+(10, 2, 3),
+(10, 9, 2),
+(11, 2, 2),
+(11, 3, 1),
+(12, 2, 3),
+(12, 3, 4),
+(13, 2, 1),
+(13, 3, 1),
+(14, 2, 1),
+(14, 3, 2),
+(15, 2, 4),
+(15, 3, 2),
+(16, 2, 2),
+(16, 4, 1),
+(17, 2, 4),
+(17, 4, 5),
+(18, 2, 3),
+(18, 4, 2),
+(19, 2, 1),
+(19, 4, 1),
+(20, 2, 5),
+(20, 4, 5),
+(21, 5, 2),
+(21, 6, 4),
+(22, 5, 4),
+(22, 6, 3),
+(23, 5, 2),
+(23, 6, 2),
+(24, 5, 2),
+(24, 6, 3),
+(25, 5, 1),
+(25, 6, 4),
+(26, 5, 2),
+(27, 5, 1),
+(28, 5, 4),
+(29, 5, 4),
+(30, 5, 2),
+(31, 7, 3),
+(31, 8, 2),
+(32, 7, 5),
+(32, 8, 5),
+(33, 7, 1),
+(33, 8, 1),
+(34, 7, 3),
+(34, 8, 1),
+(35, 7, 4),
+(35, 8, 3),
+(36, 8, 1),
+(37, 8, 1),
+(38, 8, 1),
+(39, 8, 1),
+(40, 8, 1);
 
 -- --------------------------------------------------------
 
@@ -45,6 +121,22 @@ CREATE TABLE `assignspecialgradestudent` (
   `fk_specialSubject_id` int(11) NOT NULL,
   `fk_specialGrade_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+
+--
+-- Daten für Tabelle `assignspecialgradestudent`
+--
+
+INSERT INTO `assignspecialgradestudent` (`fk_student_id`, `fk_specialSubject_id`, `fk_specialGrade_id`) VALUES
+(26, 1, 2),
+(27, 1, 3),
+(28, 1, 4),
+(29, 1, 1),
+(30, 1, 4),
+(36, 2, 3),
+(37, 2, 3),
+(38, 2, 3),
+(39, 2, 4),
+(40, 2, 1);
 
 -- --------------------------------------------------------
 
@@ -156,7 +248,7 @@ INSERT INTO `students` (`student_id`, `studentName`, `studentSurname`, `studentA
 (1, 'Tony', 'Stark', 'Homeway 01', 'Howard Stark', 1),
 (2, 'Steve', 'Rogers', 'Homeway 02', 'Rogers Dad', 1),
 (3, 'Bruce', 'Banner', 'Homeway 03', 'Bruce Shark', 1),
-(4, 'Peggy', 'Carter', 'Homeyway 04', 'Mrs Puff', 1),
+(4, 'Peggy', 'Carter', 'Homeway 04', 'Mrs Puff', 1),
 (5, 'James', 'Barnes', 'Homeway 05', 'Paul Summers', 1),
 (6, 'Homer', 'Simpsons', 'Homeway 06', 'Al Neal', 2),
 (7, 'Marge', 'Simpson', 'Homeway 07', 'Mr Krabs', 2),
@@ -202,9 +294,31 @@ INSERT INTO `students` (`student_id`, `studentName`, `studentSurname`, `studentA
 
 CREATE TABLE `subjectclass` (
   `fk_class_id` int(11) NOT NULL,
-  `fk_subject_id` int(11) NOT NULL,
-  `fk_specialSubject_id` int(11) NOT NULL
+  `fk_subject_id` int(11) DEFAULT NULL,
+  `fk_specialSubject_id` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
+
+--
+-- Daten für Tabelle `subjectclass`
+--
+
+INSERT INTO `subjectclass` (`fk_class_id`, `fk_subject_id`, `fk_specialSubject_id`) VALUES
+(1, 1, NULL),
+(1, 9, NULL),
+(2, 2, NULL),
+(2, 9, NULL),
+(3, 2, NULL),
+(3, 3, NULL),
+(4, 2, NULL),
+(4, 4, NULL),
+(5, 5, NULL),
+(5, 6, NULL),
+(6, NULL, 1),
+(6, 5, NULL),
+(7, 7, NULL),
+(7, 8, NULL),
+(8, NULL, 2),
+(8, 8, NULL);
 
 -- --------------------------------------------------------
 
@@ -243,6 +357,28 @@ CREATE TABLE `teacherclass` (
   `fk_classes_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
+--
+-- Daten für Tabelle `teacherclass`
+--
+
+INSERT INTO `teacherclass` (`fk_teacher_id`, `fk_classes_id`) VALUES
+(1, 1),
+(1, 2),
+(2, 3),
+(2, 4),
+(3, 5),
+(3, 6),
+(4, 7),
+(4, 8),
+(5, 1),
+(5, 2),
+(6, 3),
+(6, 4),
+(7, 5),
+(7, 6),
+(8, 7),
+(8, 8);
+
 -- --------------------------------------------------------
 
 --
@@ -274,6 +410,25 @@ INSERT INTO `teachers` (`teacher_id`, `teacherName`, `teacherSurname`, `teacherA
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `teacherspecialsubjects`
+--
+
+CREATE TABLE `teacherspecialsubjects` (
+  `fk_teacher_id` int(11) DEFAULT NULL,
+  `fk_specialsubject_id` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Daten für Tabelle `teacherspecialsubjects`
+--
+
+INSERT INTO `teacherspecialsubjects` (`fk_teacher_id`, `fk_specialsubject_id`) VALUES
+(7, 1),
+(8, 2);
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `teachersubject`
 --
 
@@ -283,6 +438,24 @@ CREATE TABLE `teachersubject` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf16;
 
 --
+-- Daten für Tabelle `teachersubject`
+--
+
+INSERT INTO `teachersubject` (`fk_teacher_id`, `fk_subject_id`) VALUES
+(1, 1),
+(1, 2),
+(2, 3),
+(2, 4),
+(3, 5),
+(3, 6),
+(4, 7),
+(4, 8),
+(5, 9),
+(5, 1),
+(6, 2),
+(6, 3);
+
+--
 -- Indizes der exportierten Tabellen
 --
 
@@ -290,8 +463,8 @@ CREATE TABLE `teachersubject` (
 -- Indizes für die Tabelle `assigngradestudent`
 --
 ALTER TABLE `assigngradestudent`
-  ADD KEY `studentId` (`fk_student_id`,`fk_teacher_id`,`fk_grade_id`),
-  ADD KEY `fk_teacher_id` (`fk_teacher_id`),
+  ADD KEY `studentId` (`fk_student_id`,`fk_subject_id`,`fk_grade_id`),
+  ADD KEY `fk_teacher_id` (`fk_subject_id`),
   ADD KEY `fk_grade_id` (`fk_grade_id`);
 
 --
@@ -338,7 +511,7 @@ ALTER TABLE `students`
 -- Indizes für die Tabelle `subjectclass`
 --
 ALTER TABLE `subjectclass`
-  ADD KEY `classId` (`fk_class_id`,`fk_subject_id`,`fk_specialSubject_id`),
+  ADD KEY `fk_class_id` (`fk_class_id`,`fk_subject_id`,`fk_specialSubject_id`),
   ADD KEY `fk_subject_id` (`fk_subject_id`),
   ADD KEY `fk_specialSubject_id` (`fk_specialSubject_id`);
 
@@ -362,11 +535,18 @@ ALTER TABLE `teachers`
   ADD PRIMARY KEY (`teacher_id`);
 
 --
+-- Indizes für die Tabelle `teacherspecialsubjects`
+--
+ALTER TABLE `teacherspecialsubjects`
+  ADD KEY `fk_teacher_id` (`fk_teacher_id`,`fk_specialsubject_id`),
+  ADD KEY `fk_specialsubject_id` (`fk_specialsubject_id`);
+
+--
 -- Indizes für die Tabelle `teachersubject`
 --
 ALTER TABLE `teachersubject`
-  ADD PRIMARY KEY (`fk_teacher_id`),
-  ADD KEY `subjectId` (`fk_subject_id`);
+  ADD KEY `subjectId` (`fk_subject_id`),
+  ADD KEY `fk_teacher_id` (`fk_teacher_id`);
 
 --
 -- AUTO_INCREMENT für exportierte Tabellen
@@ -422,7 +602,7 @@ ALTER TABLE `teachers`
 -- Constraints der Tabelle `assigngradestudent`
 --
 ALTER TABLE `assigngradestudent`
-  ADD CONSTRAINT `assigngradestudent_ibfk_2` FOREIGN KEY (`fk_teacher_id`) REFERENCES `teachers` (`teacher_id`),
+  ADD CONSTRAINT `assigngradestudent_ibfk_2` FOREIGN KEY (`fk_subject_id`) REFERENCES `subjects` (`subject_id`),
   ADD CONSTRAINT `assigngradestudent_ibfk_4` FOREIGN KEY (`fk_student_id`) REFERENCES `students` (`student_id`),
   ADD CONSTRAINT `assigngradestudent_ibfk_5` FOREIGN KEY (`fk_grade_id`) REFERENCES `grades` (`grade_id`);
 
@@ -444,10 +624,9 @@ ALTER TABLE `students`
 -- Constraints der Tabelle `subjectclass`
 --
 ALTER TABLE `subjectclass`
-  ADD CONSTRAINT `subjectclass_ibfk_1` FOREIGN KEY (`fk_class_id`) REFERENCES `classes` (`class_id`),
-  ADD CONSTRAINT `subjectclass_ibfk_3` FOREIGN KEY (`fk_class_id`) REFERENCES `classes` (`class_id`),
-  ADD CONSTRAINT `subjectclass_ibfk_6` FOREIGN KEY (`fk_subject_id`) REFERENCES `subjects` (`subject_id`),
-  ADD CONSTRAINT `subjectclass_ibfk_7` FOREIGN KEY (`fk_specialSubject_id`) REFERENCES `specialsubjects` (`specialSubject_id`);
+  ADD CONSTRAINT `subjectclass_ibfk_1` FOREIGN KEY (`fk_class_id`) REFERENCES `classes` (`class_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `subjectclass_ibfk_2` FOREIGN KEY (`fk_subject_id`) REFERENCES `subjects` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `subjectclass_ibfk_3` FOREIGN KEY (`fk_specialSubject_id`) REFERENCES `specialsubjects` (`specialSubject_id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints der Tabelle `teacherclass`
@@ -457,11 +636,18 @@ ALTER TABLE `teacherclass`
   ADD CONSTRAINT `teacherclass_ibfk_2` FOREIGN KEY (`fk_classes_id`) REFERENCES `classes` (`class_id`);
 
 --
+-- Constraints der Tabelle `teacherspecialsubjects`
+--
+ALTER TABLE `teacherspecialsubjects`
+  ADD CONSTRAINT `teacherspecialsubjects_ibfk_1` FOREIGN KEY (`fk_teacher_id`) REFERENCES `teachers` (`teacher_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `teacherspecialsubjects_ibfk_2` FOREIGN KEY (`fk_specialsubject_id`) REFERENCES `specialsubjects` (`specialSubject_id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
 -- Constraints der Tabelle `teachersubject`
 --
 ALTER TABLE `teachersubject`
-  ADD CONSTRAINT `teachersubject_ibfk_1` FOREIGN KEY (`fk_teacher_id`) REFERENCES `teachers` (`teacher_id`),
-  ADD CONSTRAINT `teachersubject_ibfk_2` FOREIGN KEY (`fk_subject_id`) REFERENCES `subjects` (`subject_id`);
+  ADD CONSTRAINT `teachersubject_ibfk_2` FOREIGN KEY (`fk_subject_id`) REFERENCES `subjects` (`subject_id`),
+  ADD CONSTRAINT `teachersubject_ibfk_3` FOREIGN KEY (`fk_teacher_id`) REFERENCES `teachers` (`teacher_id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
