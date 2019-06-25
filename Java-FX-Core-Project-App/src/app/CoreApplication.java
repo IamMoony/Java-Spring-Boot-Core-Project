@@ -7,6 +7,7 @@ import javafx.collections.ObservableList;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
@@ -139,7 +140,8 @@ public class CoreApplication extends Application {
 
 
         // HBox Grades
-        HBox hBoxGradeMath = new HBox(txtGradeMath);
+        // HBox hBoxGradeMath = new HBox();
+        // hBoxGradeMath.getChildren().addAll(mathLabel, txtGradeMath);
          /*
         HBox hBoxGradeEngl = new HBox(englLabel, txtGradeEng);
         HBox hBoxGradePhys = new HBox(physLabel, txtGradePhys);
@@ -173,6 +175,31 @@ public class CoreApplication extends Application {
         txtGradeIt = new Text();
         txtClass = new Text();
 
+        //Gridpane for grades
+        GridPane gradeBox = new GridPane();
+
+        //put labels in gridpane
+        gradeBox.add(mathLabel, 1, 1);
+        gradeBox.add(englLabel, 1, 2);
+        gradeBox.add(physLabel, 1, 3);
+        gradeBox.add(chemLabel, 1, 4);
+        gradeBox.add(gerLabel, 1, 5);
+        gradeBox.add(bioLabel, 1, 6);
+        gradeBox.add(spanLabel, 1, 7);
+        gradeBox.add(itLabel, 1, 8);
+        gradeBox.add(histLabel, 1, 9);
+
+        //put text in label
+        gradeBox.add(txtGradeMath, 2, 1);
+        gradeBox.add(txtGradeEng, 2, 2);
+        gradeBox.add(txtGradePhys, 2, 3);
+        gradeBox.add(txtGradeChem, 2, 4);
+        gradeBox.add(txtGradeGer, 2, 5);
+        gradeBox.add(txtGradeBio, 2, 6);
+        gradeBox.add(txtGradeSpan, 2, 7);
+        gradeBox.add(txtGradeIt, 2, 8);
+        gradeBox.add(txtGradeHis, 2, 9);
+
         // Hidden ID
         // HBox hBoxHiddenId = new HBox(txtHiddenIdField);
 
@@ -204,8 +231,8 @@ public class CoreApplication extends Application {
         vBoxR1Obj2.getChildren().add(listViewSubjects);
         vBoxR1Obj3.getChildren().add(listViewClasses);
         vBoxR2Obj1.getChildren().add(listViewStudents);
-        vBoxR2Obj2.getChildren().addAll(hBoxGradeMath);
-        // vBoxR2Obj3.getChildren().add(txtcontactPerson);
+        vBoxR2Obj2.getChildren().add(txtAddressField);
+        vBoxR2Obj4.getChildren().add(gradeBox);
 
         root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
 

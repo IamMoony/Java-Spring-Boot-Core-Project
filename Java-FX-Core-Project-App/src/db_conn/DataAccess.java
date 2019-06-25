@@ -31,10 +31,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/Java_group_project_test" +
+                "jdbc:mysql://localhost/java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "moony#1423");
+                "");
 
         // Write a file
         conn.setAutoCommit(true);
