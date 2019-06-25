@@ -18,6 +18,7 @@ import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public class CoreApplication extends Application {
@@ -54,9 +55,6 @@ public class CoreApplication extends Application {
     private Text txtGradeIt;
     private Text txtGradeHis;
     private Text txtClass;
-
-    // Get ID
-    private Text txtHiddenIdField;
 
     // DB Access
     private DataAccess dbDataAccess;
@@ -103,6 +101,7 @@ public class CoreApplication extends Application {
         Label hasSubjectsLabel = new Label("has subjects");
         Label teachesLabel = new Label("teaches");
         Label studentLabel = new Label("Student");
+        Label studentGradesLabel = new Label("Grades");
         Label studentAddressLabel = new Label("Address");
         Label studentContactPLabel = new Label("Contact Person");
         Label classLabel = new Label("Class");
@@ -129,14 +128,14 @@ public class CoreApplication extends Application {
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
-        VBox vBoxR2Obj2 = new VBox();
+        VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
-        VBox vBoxR2Obj4 = new VBox();
+        VBox vBoxR2Obj4 = new VBox(studentGradesLabel);
         VBox vBoxR2Obj5 = new VBox(classLabel);
 
         // Third Row Objects with Labels
-        VBox vBoxR3Obj1 = new VBox(classLabel);
-        VBox vBoxR3Obj2 = new VBox(studentsLabel);
+        // VBox vBoxR3Obj1 = new VBox(classLabel);
+        // VBox vBoxR3Obj2 = new VBox(studentsLabel);
 
 
         // First Row
@@ -144,10 +143,9 @@ public class CoreApplication extends Application {
         // Second Row
         HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5);
         // Third Row
-        HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
+        // HBox hBoxThirdR = new HBox(vBoxR3Obj1, vBoxR3Obj2);
 
         // Initialize Text Fields
-        txtHiddenIdField = new Text();
         txtAddressField = new Text();
         txtcontactPerson = new Text();
         txtGradeMath = new Text();
@@ -218,8 +216,9 @@ public class CoreApplication extends Application {
         vBoxR2Obj2.getChildren().add(txtAddressField);
         vBoxR2Obj3.getChildren().add(txtcontactPerson);
         vBoxR2Obj4.getChildren().add(gradeBox);
+        vBoxR2Obj5.getChildren().add(txtClass);
 
-        root.getChildren().addAll(hBoxFirstR, hBoxSecondR, hBoxThirdR);
+        root.getChildren().addAll(hBoxFirstR, hBoxSecondR);
 
         // show
         Scene scene = new Scene(root);
@@ -242,9 +241,8 @@ public class CoreApplication extends Application {
 
                // Set Teachers in List View
                Teacher teacher = teacherData.get(new_val.intValue());
-               txtHiddenIdField.setText(Integer.toString(teacher.getId()));
-               teacherDataSubjects = getSubjectData(Integer.valueOf(txtHiddenIdField.getText()));
-               teacherDataClasses = getTeacherDataClasses(Integer.valueOf(txtHiddenIdField.getText()));
+               teacherDataSubjects = getSubjectData(teacher.getId());
+               teacherDataClasses = getTeacherDataClasses(teacher.getId());
 
                // Set Subjects in List View
                listViewSubjects.setItems(teacherDataSubjects);
@@ -269,7 +267,11 @@ public class CoreApplication extends Application {
             Student student = studentData.get(new_val.intValue());
             txtAddressField.setText(student.getAddress());
             txtcontactPerson.setText(student.getContactPerson());
-            // txtClass.setText(student.getClass())
+            try {
+                txtClass.setText(dbDataAccess.getStudentClass(student.getId()));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
 

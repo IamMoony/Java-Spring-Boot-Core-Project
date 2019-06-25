@@ -59,6 +59,14 @@ public class Student {
         this.contactPerson = contactPerson;
     }
 
+    public int getFk_class_id() {
+        return fk_class_id;
+    }
+
+    public void setFk_class_id(int fk_class_id) {
+        this.fk_class_id = fk_class_id;
+    }
+
     @Override
     public String toString() {
         return name + " " + surname;
