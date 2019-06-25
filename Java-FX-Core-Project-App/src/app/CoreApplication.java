@@ -47,7 +47,7 @@ public class CoreApplication extends Application {
     private Text txtClass;
     private Text txtHiddenIdField;
 
-    // Get ID field
+    // Get ID
 
     private Text txtTeacherId;
 
@@ -133,7 +133,8 @@ public class CoreApplication extends Application {
         // View Teacher
 
         listViewTeachers = new ListView<>();
-        listViewTeachers.getSelectionModel().selectedIndexProperty();
+        listViewTeachers.getSelectionModel().selectedIndexProperty().addListener(
+                new ListSelectChangeListener());
         teacherData = getTeacherData();
         listViewTeachers.setItems(teacherData);
 
