@@ -30,10 +30,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/Java_group_project_test" +
+                "jdbc:mysql://localhost/java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "moony#1423");
+                "");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -58,7 +58,7 @@ public class DataAccess {
      */
     public List<Teacher> getTeacherData() throws SQLException {
 
-        String sql = "SELECT * FROM " + teacherTable + " ORDER BY teacherName";
+        String sql = "SELECT * FROM " + teacherTable + " ORDER BY teacherSurname";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
 
@@ -130,7 +130,7 @@ public class DataAccess {
      */
     public List<Student> getStudentData() throws SQLException {
 
-        String sql = "SELECT * FROM " + studentTable + " ORDER BY studentName";
+        String sql = "SELECT * FROM " + studentTable + " ORDER BY studentSurname";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         ResultSet rs = pstmnt.executeQuery();
 
@@ -167,16 +167,18 @@ public class DataAccess {
         return studentClass;
     }
 
-    public ArrayList<String> getStudentSubjects(int i) throws SQLException {
-        String sql = "SELECT subjects.subjectName FROM students INNER JOIN classes ON students.fk_class_id = classes.class_id INNER JOIN subjectclass ON classes.class_id = subjectclass.fk_class_id INNER JOIN subjects ON subjectclass.fk_subject_id = subjects.subject_id WHERE students.student_id = ?";
+    public ArrayList<Subject> getStudentSubjects(int i) throws SQLException {
+        String sql = "SELECT subject_id, subjects.subjectName FROM students INNER JOIN classes ON students.fk_class_id = classes.class_id INNER JOIN subjectclass ON classes.class_id = subjectclass.fk_class_id INNER JOIN subjects ON subjectclass.fk_subject_id = subjects.subject_id WHERE students.student_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, i);
         ResultSet rs = pstmnt.executeQuery();
 
-        ArrayList subjects = new ArrayList();
+        ArrayList<Subject> subjects = new ArrayList<>();
 
         while (rs.next()) {
-            subjects.add(rs.getString("subjectName"));
+            int id = rs.getInt("subject_id");
+            String name = rs.getString("subjectName");
+            subjects.add(new Subject(id, name));
         }
 
         pstmnt.close(); // also closes related result set
@@ -199,6 +201,16 @@ public class DataAccess {
         return grades;
     }
 
+    public void updateStudentGrade(int grade, int student, int subject) throws SQLException{
+
+        String sql = "UPDATE assigngradestudent SET fk_grade_id = ? WHERE fk_student_id = ? AND fk_subject_id = ?";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, grade);
+        pstmnt.setInt(2, student);
+        pstmnt.setInt(3, subject);
+        pstmnt.executeUpdate();
+        pstmnt.close();
+    }
 
     /*
     ##################
