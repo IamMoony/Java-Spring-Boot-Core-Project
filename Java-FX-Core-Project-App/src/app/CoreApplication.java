@@ -276,9 +276,8 @@ public class CoreApplication extends Application {
         vBoxR1Obj3.getChildren().add(listViewClassesT);
         vBoxR2Obj1.getChildren().add(listViewStudents);
         vBoxR2Obj2.getChildren().add(txtAddressField);
-        // vBoxR2Obj3.getChildren().add(txtcontactPerson);
-        // vBoxR2Obj4.getChildren().add(gradeBox);
-        // vBoxR2Obj5.getChildren().add(txtClass);
+        vBoxR2Obj3.getChildren().add(txtcontactPerson);
+        vBoxR2Obj5.getChildren().add(txtClass);
         vBoxR3Obj1.getChildren().add(listViewClasses);
         vBoxR3Obj2.getChildren().add(listViewClassesS);
 
@@ -325,7 +324,7 @@ public class CoreApplication extends Application {
         public void changed(ObservableValue<? extends Number> ov,
                             Number old_val, Number new_val) {
 
-            if ((new_val.intValue() < 0) || (new_val.intValue() >= teacherData.size())) {
+            if ((new_val.intValue() < 0) || (new_val.intValue() >= studentData.size())) {
 
                 return; // invalid data
             }
@@ -382,7 +381,7 @@ public class CoreApplication extends Application {
         public void changed(ObservableValue<? extends Number> ov,
                             Number old_val, Number new_val) {
 
-            if ((new_val.intValue() < 0) || (new_val.intValue() >= teacherData.size())) {
+            if ((new_val.intValue() < 0) || (new_val.intValue() >= classData.size())) {
 
                 return; // invalid data
             }
