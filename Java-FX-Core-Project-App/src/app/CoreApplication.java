@@ -176,7 +176,8 @@ public class CoreApplication extends Application {
         //CSS layout
         String cssLayout = "-fx-border-color: black;\n" +
                 "-fx-border-insets: 5;\n" +
-                "-fx-border-width: 1;\n";
+                "-fx-border-width: 1;\n" +
+                "-fx-background-color: #fff";
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
