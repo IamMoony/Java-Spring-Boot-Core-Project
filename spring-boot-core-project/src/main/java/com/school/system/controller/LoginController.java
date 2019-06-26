@@ -46,7 +46,7 @@ public class LoginController {
         if (userExists != null) {
             bindingResult
                     .rejectValue("email", "error.user",
-                            "There is already a user registered with the email provided");
+                            "There is already a user registered with the username provided");
         }
         if (bindingResult.hasErrors()) {
             modelAndView.setViewName("registerstudent");
@@ -90,7 +90,7 @@ public class LoginController {
     */
 
 
-    @RequestMapping(value="/student/classlist", method = RequestMethod.GET)
+    @RequestMapping(value="/student/studentlist", method = RequestMethod.GET)
     public ModelAndView list(){
         ModelAndView modelAndView = new ModelAndView();
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();

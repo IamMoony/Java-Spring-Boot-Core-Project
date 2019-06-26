@@ -51,7 +51,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .antMatchers("/student/**").permitAll().anyRequest()
                 .authenticated().and().csrf().disable().formLogin()
                 .loginPage("/login").failureUrl("/login?error=true")
-                .defaultSuccessUrl("/student/classlist")
+                .defaultSuccessUrl("/student/studentlist")
                 .usernameParameter("email")
                 .passwordParameter("password")
                 .and().logout()
