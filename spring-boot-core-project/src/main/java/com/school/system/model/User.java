@@ -48,8 +48,8 @@ public class User {
     @Column(name = "contactPerson")
     private String contactPerson;
 
-    @Column(name = "note")
-    private int note;
+    @Column(name = "grades")
+    private int grades;
 
     @Column(name = "subject")
     private String subject;
@@ -68,7 +68,7 @@ public class User {
     @Override
     public String toString() {
         return id + ") Name: " + name + " Surname: " + lastName + ", visits class: " + classes +
-                ", has the subjects: " + subject + " with the notes: " + note + ".";
+                ", has the subjects: " + subject + " with the notes: " + grades + ".";
     }
 
     public int getId() {
@@ -135,9 +135,9 @@ public class User {
         this.contactPerson = contactPerson;
     }
 
-    public int getNote(){ return note; }
+    public int getGrades(){ return grades; }
 
-    public void setNote(int note){ this.note = note;}
+    public void setGrades(int grades){ this.grades = grades;}
 
     public String getSubject(){ return subject;}
 
