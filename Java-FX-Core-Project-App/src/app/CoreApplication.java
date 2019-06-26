@@ -51,7 +51,9 @@ public class CoreApplication extends Application {
 
     //Gridpane and box
     private GridPane gradeBox;
-    VBox vBoxR2Obj4;
+    private VBox vBoxR2Obj4;
+    private HBox hBoxSecondRB;
+    private Button btnassignStudentGrade;
 
     // Text Fields
     private Text txtAddressField;
@@ -59,7 +61,7 @@ public class CoreApplication extends Application {
     private Text txtClass;
 
     // New Combobox
-    ComboBox comboBox;
+    private ComboBox comboBox;
 
     // Scenes
     Scene scene1, scene2;
@@ -116,6 +118,8 @@ public class CoreApplication extends Application {
         studentContactPLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label classLabel = new Label("Class");
         classLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
+        Label newClass = new Label("Class");
+        newClass.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentsLabel = new Label("Students");
         studentsLabel.setFont(Font.font("Verdana", FontWeight.BOLD, 15));
         Label studentStatusLabel = new Label("Status");
@@ -126,37 +130,22 @@ public class CoreApplication extends Application {
         rootHeadingLabel.setFont(new Font("Arial", 20));
         rootHeadingLabel.setPadding(new Insets(20));
 
-
-        // Buttons
-        Button btnassignStudentGrade = new Button("Assign Grade");
-        btnassignStudentGrade.setCursor(Cursor.HAND);
+         // Buttons
+         btnassignStudentGrade = new Button("Assign Grade");
+         btnassignStudentGrade.setCursor(Cursor.HAND);
 /*
         btnassignStudentGrade.setOnAction(e -> {
 
         );
  */
 
-        // ComboBox
-        ObservableList<String> subjects =
-                FXCollections.observableArrayList(
-                        "English",
-                        "Maths",
-                        "Physics",
-                        "Chemistry",
-                        "German",
-                        "Biology",
-                        "Spanish",
-                        "IT",
-                        "History"
-                );
 
-        comboBox = new ComboBox();
-        comboBox.setItems(subjects);
 
         // VBox Root
         VBox root = new VBox(rootHeadingLabel);
         root.setPadding(new Insets(10, 50, 50, 50));
         root.setAlignment(Pos.CENTER);
+        root.setSpacing(10);
 
         // studentDataAddress = new HBox(studentAddressLabel, txtAddressField);
        //  HBox studentDataACP = new HBox (studentContactPLabel, txtcontactPerson);
@@ -168,12 +157,17 @@ public class CoreApplication extends Application {
         VBox vBoxR1Obj1 = new VBox(teacherLabel);
         vBoxR1Obj1.setMaxHeight(400);
         vBoxR1Obj1.setMaxWidth(400);
-        VBox vBoxR1Obj2 = new VBox();
+        VBox vBoxR1Obj2 = new VBox(hasSubjectsLabel);
         vBoxR1Obj2.setMaxHeight(400);
         vBoxR1Obj2.setMaxWidth(400);
         VBox vBoxR1Obj3 = new VBox(teachesLabel);
         vBoxR1Obj3.setMaxHeight(400);
         vBoxR1Obj3.setMaxWidth(400);
+
+        //CSS layout
+        String cssLayout = "-fx-border-color: black;\n" +
+                "-fx-border-insets: 5;\n" +
+                "-fx-border-width: 1;\n";
 
         // Second Row Objects with Labels
         VBox vBoxR2Obj1 = new VBox(studentLabel);
@@ -182,32 +176,32 @@ public class CoreApplication extends Application {
         VBox vBoxR2Obj2 = new VBox(studentAddressLabel);
         vBoxR2Obj2.setMaxHeight(400);
         vBoxR2Obj2.setMaxWidth(400);
-        String cssLayout = "-fx-border-color: black;\n" +
-                "-fx-border-insets: 5;\n" +
-                "-fx-border-width: 1;\n" +
-                "-fx-border-style: line;\n";
+        vBoxR2Obj2.setPadding(new Insets(10));
         vBoxR2Obj2.setStyle(cssLayout);
         VBox vBoxR2Obj3 = new VBox(studentContactPLabel);
         vBoxR2Obj3.setMaxHeight(400);
         vBoxR2Obj3.setMaxWidth(400);
+        vBoxR2Obj3.setPadding(new Insets(10));
         vBoxR2Obj3.setStyle(cssLayout);
         vBoxR2Obj4 = new VBox(studentGradesLabel);
         vBoxR2Obj4.setMaxHeight(400);
         vBoxR2Obj4.setMaxWidth(400);
         vBoxR2Obj4.setStyle(cssLayout);
-        VBox vBoxR2Obj5 = new VBox(classLabel);
+        vBoxR2Obj4.setPadding(new Insets(10));
+        VBox vBoxR2Obj5 = new VBox(newClass);
         vBoxR2Obj5.setMaxHeight(400);
         vBoxR2Obj5.setMaxWidth(400);
+        vBoxR2Obj5.setPadding(new Insets(10));
         vBoxR2Obj5.setStyle(cssLayout);
-        VBox vBoxR2Obj6 = new VBox(studentStatusLabel);
-        vBoxR2Obj6.setMaxHeight(400);
-        vBoxR2Obj6.setMaxWidth(400);
-        vBoxR2Obj6.setStyle(cssLayout);
+
+        // VBox vBoxR2Obj6 = new VBox(studentStatusLabel);
+        // vBoxR2Obj6.setMaxHeight(400);
+        // vBoxR2Obj6.setMaxWidth(400);
+        // vBoxR2Obj6.setStyle(cssLayout);
 
         // Third row objects
         VBox vBoxR3Obj1 = new VBox(classLabel);
         VBox vBoxR3Obj2 = new VBox(studentsLabel);
-
 
         // First row
         HBox hBoxFirstR = new HBox(vBoxR1Obj1, vBoxR1Obj2, vBoxR1Obj3);
@@ -216,12 +210,12 @@ public class CoreApplication extends Application {
         // HBox.setHgrow(vBoxR1Obj3, Priority.ALWAYS);
 
         // Second row
-        HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5, vBoxR2Obj6);
+        HBox hBoxSecondR = new HBox(vBoxR2Obj1, vBoxR2Obj2, vBoxR2Obj3, vBoxR2Obj4, vBoxR2Obj5);
         hBoxSecondR.setSpacing(50);
         // HBox.setHgrow(hBoxSecondR, Priority.ALWAYS);
 
         // Extra row for button
-        HBox hBoxSecondRB = new HBox(subjectsLabel, comboBox, btnassignStudentGrade);
+        hBoxSecondRB = new HBox(subjectsLabel);
         hBoxSecondRB.setSpacing(10);
         // HBox.setHgrow(hBoxSecondRB, Priority.ALWAYS);
 
@@ -234,9 +228,6 @@ public class CoreApplication extends Application {
         txtAddressField = new Text();
         txtcontactPerson = new Text();
         txtClass = new Text();
-
-        //Gridpane for grades
-        GridPane gradeBox = new GridPane();
 
         // View Teacher
         listViewTeachers = new ListView<>();
@@ -276,9 +267,8 @@ public class CoreApplication extends Application {
         vBoxR1Obj3.getChildren().add(listViewClassesT);
         vBoxR2Obj1.getChildren().add(listViewStudents);
         vBoxR2Obj2.getChildren().add(txtAddressField);
-        // vBoxR2Obj3.getChildren().add(txtcontactPerson);
-        // vBoxR2Obj4.getChildren().add(gradeBox);
-        // vBoxR2Obj5.getChildren().add(txtClass);
+        vBoxR2Obj3.getChildren().add(txtcontactPerson);
+        vBoxR2Obj5.getChildren().add(txtClass);
         vBoxR3Obj1.getChildren().add(listViewClasses);
         vBoxR3Obj2.getChildren().add(listViewClassesS);
 
@@ -287,7 +277,7 @@ public class CoreApplication extends Application {
         root.setAlignment(Pos.CENTER_LEFT);
 
         // show
-        Scene scene = new Scene(bpRoot, 900, 600);
+        Scene scene = new Scene(bpRoot, 1200, 750);
         primaryStage.setScene(scene);
         primaryStage.show();
 
@@ -325,7 +315,7 @@ public class CoreApplication extends Application {
         public void changed(ObservableValue<? extends Number> ov,
                             Number old_val, Number new_val) {
 
-            if ((new_val.intValue() < 0) || (new_val.intValue() >= teacherData.size())) {
+            if ((new_val.intValue() < 0) || (new_val.intValue() >= studentData.size())) {
 
                 return; // invalid data
             }
@@ -374,6 +364,25 @@ public class CoreApplication extends Application {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
+            try {
+                hBoxSecondRB.getChildren().remove(comboBox);
+                hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
+
+                ArrayList<String> comboBoxSubjects = dbDataAccess.getStudentSubjects(student.getId());
+
+                // ComboBox
+                comboBox = new ComboBox();
+                ObservableList<String> subjects = FXCollections.observableArrayList();
+                subjects.addAll(comboBoxSubjects);
+
+                comboBox.setItems(subjects);
+
+                hBoxSecondRB.getChildren().addAll(comboBox, btnassignStudentGrade);
+
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
     private class ListSelectChangeListenerClass implements ChangeListener<Number> {
@@ -382,7 +391,7 @@ public class CoreApplication extends Application {
         public void changed(ObservableValue<? extends Number> ov,
                             Number old_val, Number new_val) {
 
-            if ((new_val.intValue() < 0) || (new_val.intValue() >= teacherData.size())) {
+            if ((new_val.intValue() < 0) || (new_val.intValue() >= classData.size())) {
 
                 return; // invalid data
             }
