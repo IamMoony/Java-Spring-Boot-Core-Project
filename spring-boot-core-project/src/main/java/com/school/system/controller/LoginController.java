@@ -1,7 +1,10 @@
 package com.school.system.controller;
 
 import javax.validation.Valid;
+
+import com.school.system.model.Student;
 import com.school.system.model.User;
+import com.school.system.repository.StudentsRepository;
 import com.school.system.repository.UserRepository;
 import com.school.system.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +24,9 @@ public class LoginController {
 
     @Autowired
     UserRepository repository;
+
+    @Autowired
+    StudentsRepository studentsRepository;
 
     @RequestMapping(value={"/", "/login"}, method = RequestMethod.GET)
     public ModelAndView login(){
@@ -97,15 +103,34 @@ public class LoginController {
         User user = userService.findUserByEmail(auth.getName());
         modelAndView.addObject("userName", "Welcome " + user.getName() + " " + user.getLastName());
 
-        if(user.getRole() == 1){
             String result = "";
-            for(User users : repository.findAll()){
-                if(users.getRole() == 2){
-                    result += "<div>" + users.toString() + "</div>";
+            for(Student oneStudent : studentsRepository.findAll()){
+                int userClass = 0;
+
+                if(user.getClasses().equals("1a")){
+                    userClass = 1;
+                } else if (user.getClasses().equals("1b")){
+                    userClass = 2;
+                } else if (user.getClasses().equals("2a")){
+                    userClass = 3;
+                } else if (user.getClasses().equals("2b")){
+                    userClass = 4;
+                } else if (user.getClasses().equals("3a")){
+                    userClass = 5;
+                } else if (user.getClasses().equals("3b")){
+                    userClass = 6;
+                } else if (user.getClasses().equals("4a")){
+                    userClass = 7;
+                } else if (user.getClasses().equals("4b")){
+                    userClass = 8;
                 }
+
+                if(oneStudent.getFk_class_id() == userClass)
+                result += "<div>" + oneStudent.toString() + "</div>";
             }
+
             modelAndView.addObject("adminMessage",result);
-        }
+
         modelAndView.setViewName("teacher/studentlist");
         return modelAndView;
     }
