@@ -131,13 +131,24 @@ public class CoreApplication extends Application {
          // Buttons
          btnassignStudentGrade = new Button("Assign Grade");
          btnassignStudentGrade.setCursor(Cursor.HAND);
-/*
+
         btnassignStudentGrade.setOnAction(e -> {
+            Subject comboBoxSubjValue = (Subject) comboBoxSubj.getValue();
+            int comboBoxSubjValueInt = comboBoxSubjValue.getId();
 
-        );
- */
+            String comboBoxGraValue =  (String) comboBoxGra.getValue();
+            int comboBoxGraValueInt = Integer.valueOf(comboBoxGraValue);
 
+            int listViewStudentsInt = listViewStudents.getSelectionModel().getSelectedItem().getId();
 
+            System.out.println(comboBoxGraValueInt + " " + listViewStudentsInt + " " + comboBoxSubjValueInt);
+
+            try {
+                dbDataAccess.updateStudentGrade(comboBoxGraValueInt, listViewStudentsInt, comboBoxSubjValueInt);
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
+        });
 
         // VBox Root
         VBox root = new VBox(rootHeadingLabel);
@@ -333,14 +344,13 @@ public class CoreApplication extends Application {
             try {
                 vBoxR2Obj4.getChildren().remove(gradeBox);
 
-                ArrayList<String> studentsSubjects = dbDataAccess.getStudentSubjects(student.getId());
+                ArrayList<Subject> studentsSubjects = dbDataAccess.getStudentSubjects(student.getId());
                 gradeBox = new GridPane();
                 gradeBox.setHgap(5);
                 gradeBox.setVgap(5);
 
                 for (int index = 0; index < studentsSubjects.size(); index++) {
-                    Label subject = new Label(studentsSubjects.get(index));
-                    System.out.println(studentsSubjects.get(index));
+                    Label subject = new Label(studentsSubjects.get(index).getName());
                     gradeBox.add(subject, 1, index + 1);
                 }
 
@@ -353,7 +363,6 @@ public class CoreApplication extends Application {
 
                 for (int index = 0; index < studentsGrades.size(); index++) {
                     Label subject = new Label(studentsGrades.get(index));
-                    System.out.println(studentsGrades.get(index));
                     gradeBox.add(subject, 2, index + 1);
                 }
 
@@ -367,11 +376,11 @@ public class CoreApplication extends Application {
                 hBoxSecondRB.getChildren().remove(comboBoxSubj);
                 hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
 
-                ArrayList<String> comboBoxSubjects = dbDataAccess.getStudentSubjects(student.getId());
+                ArrayList<Subject> comboBoxSubjects = dbDataAccess.getStudentSubjects(student.getId());
 
                 // ComboBox
                 comboBoxSubj = new ComboBox();
-                ObservableList<String> subjects = FXCollections.observableArrayList();
+                ObservableList<Subject> subjects = FXCollections.observableArrayList();
                 subjects.addAll(comboBoxSubjects);
 
                 comboBoxSubj.setItems(subjects);
