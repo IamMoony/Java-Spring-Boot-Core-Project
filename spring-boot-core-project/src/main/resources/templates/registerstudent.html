@@ -47,9 +47,7 @@
                 <div class="form-group">
                     <div class="col-sm-12">
                         <h3>Class</h3>
-                        <label th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"
-                               class="validation-message"></label>
-                        <input type="text" th:field="*{lastName}"
+                        <input type="text" th:field="*{classes}"
                                placeholder="Class" class="form-control"/>
                     </div>
                 </div>
