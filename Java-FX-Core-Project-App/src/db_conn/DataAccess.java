@@ -1,10 +1,7 @@
 package db_conn;
 
 import javafx.scene.control.ComboBox;
-import tables.Classes;
-import tables.Student;
-import tables.Subject;
-import tables.Teacher;
+import tables.*;
 
 import java.sql.SQLException;
 import java.sql.DriverManager;
@@ -33,10 +30,10 @@ public class DataAccess {
         // Open Connection
         System.out.println("Connecting to database...");
         conn = DriverManager.getConnection(
-                "jdbc:mysql://localhost/java_group_project_test" +
+                "jdbc:mysql://localhost/Java_group_project_test" +
                         "?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
                 "root",
-                "");
+                "moony#1423");
 
         // Write a file
         conn.setAutoCommit(true);
@@ -251,7 +248,23 @@ public class DataAccess {
         pstmnt.close(); // also closes related result set
         return classStudentList;
 
-
          }
+
+    public ArrayList<String> getGradeData() throws SQLException {
+
+        String sql = "SELECT * FROM " + gradeTable + " ORDER BY grade";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        ResultSet rs = pstmnt.executeQuery();
+
+        ArrayList<String> gradeList = new ArrayList<>();
+
+        while (rs.next()) {
+            gradeList.add(rs.getString("grade"));
+
+        }
+
+        pstmnt.close(); // also closes related result set
+        return gradeList;
+    }
 
     }

@@ -61,10 +61,8 @@ public class CoreApplication extends Application {
     private Text txtClass;
 
     // New Combobox
-    private ComboBox comboBox;
-
-    // Scenes
-    Scene scene1, scene2;
+    private ComboBox comboBoxSubj;
+    private ComboBox comboBoxGra;
 
 
     // DB Access
@@ -366,23 +364,43 @@ public class CoreApplication extends Application {
             }
 
             try {
-                hBoxSecondRB.getChildren().remove(comboBox);
+                hBoxSecondRB.getChildren().remove(comboBoxSubj);
                 hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
 
                 ArrayList<String> comboBoxSubjects = dbDataAccess.getStudentSubjects(student.getId());
 
                 // ComboBox
-                comboBox = new ComboBox();
+                comboBoxSubj = new ComboBox();
                 ObservableList<String> subjects = FXCollections.observableArrayList();
                 subjects.addAll(comboBoxSubjects);
 
-                comboBox.setItems(subjects);
+                comboBoxSubj.setItems(subjects);
 
-                hBoxSecondRB.getChildren().addAll(comboBox, btnassignStudentGrade);
+                hBoxSecondRB.getChildren().addAll(comboBoxSubj, btnassignStudentGrade);
 
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+
+            hBoxSecondRB.getChildren().remove(comboBoxGra);
+            hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
+
+            ArrayList<String> comboBoxGrades = null;
+            try {
+                comboBoxGrades = dbDataAccess.getGradeData();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+
+            // ComboBox
+            comboBoxGra = new ComboBox();
+            ObservableList<String> grades = FXCollections.observableArrayList();
+            grades.addAll(comboBoxGrades);
+
+            comboBoxGra.setItems(grades);
+
+            hBoxSecondRB.getChildren().addAll(comboBoxGra, btnassignStudentGrade);
+
         }
     }
     private class ListSelectChangeListenerClass implements ChangeListener<Number> {
@@ -401,8 +419,6 @@ public class CoreApplication extends Application {
             // View for the students in a specific class
             classDataStudents = getClassDataStudents(classes.getId());
             listViewClassesS.setItems(classDataStudents);
-
-
         }
     }
 
