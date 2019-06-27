@@ -212,13 +212,62 @@ public class DataAccess {
         pstmnt.close();
     }
 
-    public void createStudentReport(int student) throws SQLException{
+    public ArrayList<String> createStudentReport(int student) throws SQLException{
 
-        String sql = "";
+        String sql = "SELECT students.studentName, students.studentSurname, assigngradestudent.fk_subject_id, assigngradestudent.fk_grade_id FROM students INNER JOIN assigngradestudent ON students.student_id = assigngradestudent.fk_student_id WHERE students.student_id = ?";
         PreparedStatement pstmnt = conn.prepareStatement(sql);
         pstmnt.setInt(1, student);
-        pstmnt.executeUpdate();
+        ResultSet rs = pstmnt.executeQuery();
+
+        ArrayList<String> studentReport = new ArrayList<>();
+
+        String subject = "";
+        String grade = "";
+
+        while (rs.next()) {
+            studentReport.add(rs.getString("studentName"));
+            studentReport.add(rs.getString("studentSurname"));
+
+            int sub = rs.getInt("fk_subject_id");
+            if(sub == 1){
+                subject = "English";
+            } else if(sub == 2) {
+                subject = "Maths";
+            } else if(sub == 3) {
+                subject = "Physics";
+            } else if(sub == 4) {
+                subject = "Chemistry";
+            } else if(sub == 5) {
+                subject = "German";
+            } else if(sub == 6) {
+                subject = "Biology";
+            } else if(sub == 7) {
+                subject = "Spanish";
+            } else if(sub == 8) {
+                subject = "IT";
+            } else if(sub == 9) {
+                subject = "History";
+            }
+
+            int gra = rs.getInt("fk_grade_id");
+            if(gra == 1){
+                grade = "1";
+            } else if(gra == 2) {
+                grade = "2";
+            } else if(gra == 3) {
+                grade = "3";
+            } else if(gra == 4) {
+                grade = "4";
+            } else if(gra == 5) {
+                grade = "5";
+            }
+
+            studentReport.add(subject);
+            studentReport.add(grade);
+        }
+
         pstmnt.close();
+        return studentReport;
     }
 
     /*

@@ -103,7 +103,7 @@ public class LoginController {
         User user = userService.findUserByEmail(auth.getName());
         modelAndView.addObject("userName", "Welcome " + user.getName() + " " + user.getLastName());
 
-            String result = "";
+            String result = "<div><h1>Studentlist from class " + user.getClasses() + "</h1></div>";
             for(Student oneStudent : studentsRepository.findAll()){
                 int userClass = 0;
 
@@ -126,7 +126,7 @@ public class LoginController {
                 }
 
                 if(oneStudent.getFk_class_id() == userClass)
-                result += "<div>" + oneStudent.toString() + "</div>";
+                result += "<div><h3>" + oneStudent.toString() + "</h3></div>";
             }
 
             modelAndView.addObject("adminMessage",result);

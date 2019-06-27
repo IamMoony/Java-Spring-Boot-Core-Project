@@ -23,6 +23,9 @@ import javafx.beans.Observable;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -54,6 +57,7 @@ public class CoreApplication extends Application {
     private VBox vBoxR2Obj4;
     private HBox hBoxSecondRB;
     private Button btnassignStudentGrade;
+    private Button printReport;
 
     // Text Fields
     private Text txtAddressField;
@@ -132,6 +136,9 @@ public class CoreApplication extends Application {
          btnassignStudentGrade = new Button("Assign Grade");
          btnassignStudentGrade.setCursor(Cursor.HAND);
 
+        printReport = new Button("Print Report");
+        printReport.setCursor(Cursor.HAND);
+
         btnassignStudentGrade.setOnAction(e -> {
             Subject comboBoxSubjValue = (Subject) comboBoxSubj.getValue();
             int comboBoxSubjValueInt = comboBoxSubjValue.getId();
@@ -148,6 +155,29 @@ public class CoreApplication extends Application {
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
+        });
+
+        printReport.setOnAction(e -> {
+            int listViewStudentsInt = listViewStudents.getSelectionModel().getSelectedItem().getId();
+
+            try {
+                ArrayList<String> oneStudentReport = dbDataAccess.createStudentReport(listViewStudentsInt);
+                FileWriter fileWriter = new FileWriter("./src/report.txt");
+                PrintWriter printWriter = new PrintWriter(fileWriter);
+
+                for(String report : oneStudentReport){
+                    printWriter.println(report);
+                }
+
+                printWriter.close();
+
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+
+
         });
 
         // VBox Root
@@ -376,6 +406,7 @@ public class CoreApplication extends Application {
             try {
                 hBoxSecondRB.getChildren().remove(comboBoxSubj);
                 hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
+                hBoxSecondRB.getChildren().remove(printReport);
 
                 ArrayList<Subject> comboBoxSubjects = dbDataAccess.getStudentSubjects(student.getId());
 
@@ -386,7 +417,7 @@ public class CoreApplication extends Application {
 
                 comboBoxSubj.setItems(subjects);
 
-                hBoxSecondRB.getChildren().addAll(comboBoxSubj, btnassignStudentGrade);
+                hBoxSecondRB.getChildren().addAll(comboBoxSubj, btnassignStudentGrade, printReport);
 
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -394,6 +425,7 @@ public class CoreApplication extends Application {
 
             hBoxSecondRB.getChildren().remove(comboBoxGra);
             hBoxSecondRB.getChildren().remove(btnassignStudentGrade);
+            hBoxSecondRB.getChildren().remove(printReport);
 
             ArrayList<String> comboBoxGrades = null;
             try {
@@ -409,7 +441,7 @@ public class CoreApplication extends Application {
 
             comboBoxGra.setItems(grades);
 
-            hBoxSecondRB.getChildren().addAll(comboBoxGra, btnassignStudentGrade);
+            hBoxSecondRB.getChildren().addAll(comboBoxGra, btnassignStudentGrade, printReport);
 
         }
     }
