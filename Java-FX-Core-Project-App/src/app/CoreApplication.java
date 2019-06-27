@@ -152,6 +152,7 @@ public class CoreApplication extends Application {
 
             try {
                 dbDataAccess.updateStudentGrade(comboBoxGraValueInt, listViewStudentsInt, comboBoxSubjValueInt);
+                successGrade();
             } catch (SQLException ex) {
                 ex.printStackTrace();
             }
@@ -175,6 +176,8 @@ public class CoreApplication extends Application {
                 }
 
                 printWriter.close();
+
+                successReport();
 
             } catch (SQLException ex) {
                 ex.printStackTrace();
@@ -565,6 +568,21 @@ public class CoreApplication extends Application {
         return dbData;
     }
 
+    private void successReport(){
+        Alert successReport = new Alert(Alert.AlertType.INFORMATION);
+        successReport.setTitle("Success");
+        successReport.setHeaderText(null);
+        successReport.setContentText("Report successfully created.");
+        successReport.showAndWait();
+    }
+
+    private void successGrade(){
+        Alert successReport = new Alert(Alert.AlertType.INFORMATION);
+        successReport.setTitle("Success");
+        successReport.setHeaderText(null);
+        successReport.setContentText("Grade successfully assigned");
+        successReport.showAndWait();
+    }
 
     public static void main(String[] args) {
 
@@ -572,7 +590,6 @@ public class CoreApplication extends Application {
     }
 
     // Display Exception
-
     private void displayException(Exception e) {
 
         System.out.println("###### Exception ######");
