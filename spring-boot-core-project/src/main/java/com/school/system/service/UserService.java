@@ -1,6 +1,7 @@
 package com.school.system.service;
 
 import com.school.system.model.Role;
+import com.school.system.model.Student;
 import com.school.system.model.User;
 import com.school.system.repository.RoleRepository;
 import com.school.system.repository.UserRepository;
