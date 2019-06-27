@@ -224,8 +224,7 @@ public class DataAccess {
         String subject = "";
         String grade = "";
 
-        studentReport.add(rs.getString("studentName"));
-        studentReport.add(rs.getString("studentSurname"));
+
 
         while (rs.next()) {
 

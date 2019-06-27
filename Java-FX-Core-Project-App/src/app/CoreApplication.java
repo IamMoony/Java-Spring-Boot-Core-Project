@@ -160,12 +160,21 @@ public class CoreApplication extends Application {
         printReport.setOnAction(e -> {
             int listViewStudentsInt = listViewStudents.getSelectionModel().getSelectedItem().getId();
 
+            String firstname = listViewStudents.getSelectionModel().getSelectedItem().getName();
+            String lastname = listViewStudents.getSelectionModel().getSelectedItem().getSurname();
+
             try {
                 ArrayList<String> oneStudentReport = dbDataAccess.createStudentReport(listViewStudentsInt);
-                FileWriter fileWriter = new FileWriter("./src/report.txt");
+                FileWriter fileWriter = new FileWriter("./src/" + firstname + lastname + ".txt");
                 PrintWriter printWriter = new PrintWriter(fileWriter);
 
+<<<<<<< HEAD
                 for(String report : oneStudentReport) {
+=======
+                printWriter.println("SEMESTER REPORT FOR " + firstname.toUpperCase() + " " + lastname.toUpperCase());
+                printWriter.println("=====================================");
+                for(String report : oneStudentReport){
+>>>>>>> c75f55bd0fbb40d7d10f7a08a110a02e9e809157
                     printWriter.println(report);
                 }
 
