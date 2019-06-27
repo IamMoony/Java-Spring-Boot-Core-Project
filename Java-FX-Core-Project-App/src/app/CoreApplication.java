@@ -165,7 +165,7 @@ public class CoreApplication extends Application {
                 FileWriter fileWriter = new FileWriter("./src/report.txt");
                 PrintWriter printWriter = new PrintWriter(fileWriter);
 
-                for(String report : oneStudentReport){
+                for(String report : oneStudentReport) {
                     printWriter.println(report);
                 }
 
