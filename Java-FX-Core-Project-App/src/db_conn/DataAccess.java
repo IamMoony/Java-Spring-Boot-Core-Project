@@ -212,6 +212,15 @@ public class DataAccess {
         pstmnt.close();
     }
 
+    public void createStudentReport(int student) throws SQLException{
+
+        String sql = "";
+        PreparedStatement pstmnt = conn.prepareStatement(sql);
+        pstmnt.setInt(1, student);
+        pstmnt.executeUpdate();
+        pstmnt.close();
+    }
+
     /*
     ##################
     FETCH CLASS DATA
