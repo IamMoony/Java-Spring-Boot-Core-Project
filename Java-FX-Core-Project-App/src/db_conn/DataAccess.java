@@ -224,9 +224,10 @@ public class DataAccess {
         String subject = "";
         String grade = "";
 
+        studentReport.add(rs.getString("studentName"));
+        studentReport.add(rs.getString("studentSurname"));
+
         while (rs.next()) {
-            studentReport.add(rs.getString("studentName"));
-            studentReport.add(rs.getString("studentSurname"));
 
             int sub = rs.getInt("fk_subject_id");
             if(sub == 1){
